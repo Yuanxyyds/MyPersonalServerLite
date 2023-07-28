@@ -17,7 +17,10 @@ Including another URLconf
 from django.urls import path
 from landSink import views
 
+
 urlpatterns = [
     path("predict/<int:year>/", views.processing),
     path("", views.default),
 ]
+
+

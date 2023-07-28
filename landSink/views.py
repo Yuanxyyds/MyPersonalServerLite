@@ -14,33 +14,35 @@ expressly prohibited.
 
 This file is Copyright (c) 2020 Alex Lin, Steven Liu, Haitao Zeng, William Zhang.
 """
-from django.http import HttpResponse
-from django.shortcuts import render
+from django.http import JsonResponse
 
 import json
 from pyecharts.charts import Map
 from pyecharts import options
+from rest_framework.decorators import api_view
+
 from landSink import model
 
 
-def processing(request, year: int) -> HttpResponse:
+@api_view(['GET'])
+def processing(request, year: int) -> JsonResponse:
     """
     the main function to accept data form user typing.
     """
     temp = model.year_to_tem(year)
     eve = model.tem_to_sealevel(temp)
     # draw the map.
-    return draw_map(eve)
+    return draw_map(eve, year)
 
 
-def default(request) -> HttpResponse:
+def default(request) -> JsonResponse:
     """
     the main function to accept data form user typing.
     """
     temp = model.year_to_tem(2023)
     eve = model.tem_to_sealevel(temp)
     # draw the map.
-    return draw_map(eve)
+    return draw_map(eve, 2023)
 
 
 def translation(sea_level_1: float) -> list:
@@ -77,13 +79,13 @@ def translation(sea_level_1: float) -> list:
     return list(realdata.items())
 
 
-def draw_map(sea_level_2: float) -> HttpResponse:
+def draw_map(sea_level_2: float, year: int) -> JsonResponse:
     """5
     set the map setting and draw the map.
     """
     element = translation(sea_level_2)
     sunk_map = Map(options.InitOpts(bg_color="#87CEFA", page_title='sunk percentage map')). \
-        add(series_name="Sunk Rate of Country in %",
+        add(series_name="Estimate Sunk Rate at year: " + str(year),
             data_pair=element,
             is_map_symbol_show=False,
             maptype='world',
@@ -102,4 +104,9 @@ def draw_map(sea_level_2: float) -> HttpResponse:
 
     #  set Map data format.
     sunk_map.set_series_opts(label_opts=options.LabelOpts(is_show=False))  # set country divisible
-    return HttpResponse(sunk_map.render_embed())
+
+    # Render the HTML content and return it as a JSON response
+    html_content = sunk_map.render_embed()
+    response_data = {"html_content": html_content}
+
+    return JsonResponse(response_data)
