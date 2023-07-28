@@ -33,6 +33,16 @@ def processing(request, year: int) -> HttpResponse:
     return draw_map(eve)
 
 
+def default(request) -> HttpResponse:
+    """
+    the main function to accept data form user typing.
+    """
+    temp = model.year_to_tem(2023)
+    eve = model.tem_to_sealevel(temp)
+    # draw the map.
+    return draw_map(eve)
+
+
 def translation(sea_level_1: float) -> list:
     """
     translate the information form txt.
