@@ -14,7 +14,7 @@ expressly prohibited.
 
 This file is Copyright (c) 2020 Alex Lin, Steven Liu, Haitao Zeng, William Zhang.
 """
-from django.http import JsonResponse
+from django.http import HttpResponse
 
 import json
 from pyecharts.charts import Map
@@ -25,7 +25,7 @@ from landSink import model
 
 
 @api_view(['GET'])
-def processing(request, year: int) -> JsonResponse:
+def processing(request, year: int) -> HttpResponse:
     """
     the main function to accept data form user typing.
     """
@@ -35,7 +35,7 @@ def processing(request, year: int) -> JsonResponse:
     return draw_map(eve, year)
 
 
-def default(request) -> JsonResponse:
+def default(request) -> HttpResponse:
     """
     the main function to accept data form user typing.
     """
@@ -79,7 +79,7 @@ def translation(sea_level_1: float) -> list:
     return list(realdata.items())
 
 
-def draw_map(sea_level_2: float, year: int) -> JsonResponse:
+def draw_map(sea_level_2: float, year: int) -> HttpResponse:
     """5
     set the map setting and draw the map.
     """
@@ -107,6 +107,5 @@ def draw_map(sea_level_2: float, year: int) -> JsonResponse:
 
     # Render the HTML content and return it as a JSON response
     html_content = sunk_map.render_embed()
-    response_data = {"html_content": html_content}
 
-    return JsonResponse(response_data)
+    return HttpResponse(html_content)
