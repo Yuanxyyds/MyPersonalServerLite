@@ -14,6 +14,7 @@ expressly prohibited.
 
 This file is Copyright (c) 2020 Alex Lin, Steven Liu, Haitao Zeng, William Zhang.
 """
+
 from django.http import HttpResponse
 
 import json
@@ -48,15 +49,15 @@ def translation(sea_level_1: float) -> list:
     translate the information form txt.
     """
 
-    with open('landsink/data/map_data.json', 'r') as json_file:
+    with open("landsink/data/map_data.json", "r") as json_file:
         data = json.load(json_file)
 
     processed_data = {}
 
     # change the data format into what pyecharts need to draw.
-    for country in data['data']:
-        name = country['name']
-        ele = country['avg_ele']
+    for country in data["data"]:
+        name = country["name"]
+        ele = country["avg_ele"]
 
         # There are 2 country which ele is 0, we assume whenever time goes,
         # these country will sink immediately.
@@ -74,26 +75,36 @@ def draw_map(sea_level_2: float, year: int) -> HttpResponse:
     set the map setting and draw the map.
     """
     element = translation(sea_level_2)
-    sunk_map = Map(options.InitOpts(bg_color="#87CEFA", page_title='Land sunk percentage map')). \
-        add(series_name="Estimate Land Sunk Percentage at Year " + str(year),
-            data_pair=element,
-            is_map_symbol_show=False,
-            maptype='world',
-            layout_size=150
-            )
+    sunk_map = Map(
+        options.InitOpts(bg_color="#87CEFA", page_title="Land sunk percentage map")
+    ).add(
+        series_name="Estimate Land Sunk Percentage at Year " + str(year),
+        data_pair=element,
+        is_map_symbol_show=False,
+        maptype="world",
+        layout_size=150,
+    )
 
     #  set different color to different danger level.
     sunk_map.set_global_opts(
-        visualmap_opts=options.VisualMapOpts(max_=1100000, is_piecewise=True, pieces=[
-            {"min": 96},
-            {"min": 72.9, "max": 95.999},
-            {"min": 50.4, "max": 72.899},
-            {"min": 27.8, "max": 50.399},
-            {"min": 5.001, "max": 27.799},
-            {"max": 5}, ]))
+        visualmap_opts=options.VisualMapOpts(
+            max_=1100000,
+            is_piecewise=True,
+            pieces=[
+                {"min": 96},
+                {"min": 72.9, "max": 95.999},
+                {"min": 50.4, "max": 72.899},
+                {"min": 27.8, "max": 50.399},
+                {"min": 5.001, "max": 27.799},
+                {"max": 5},
+            ],
+        )
+    )
 
     #  set Map data format.
-    sunk_map.set_series_opts(label_opts=options.LabelOpts(is_show=False))  # set country divisible
+    sunk_map.set_series_opts(
+        label_opts=options.LabelOpts(is_show=False)
+    )  # set country divisible
 
     # Render the HTML content and return it as a JSON response
     html_content = sunk_map.render_embed()
