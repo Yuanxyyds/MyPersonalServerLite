@@ -30,6 +30,8 @@ def predict(request, year: int) -> HttpResponse:
     """
     temp = models.year_to_tem(year)
     eve = models.tem_to_sealevel(temp)
+    print(year)
+    print(eve)
     # draw the map.
     return draw_map(eve, year)
 
