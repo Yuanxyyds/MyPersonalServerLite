@@ -19,7 +19,7 @@ def get_server_stats(request):
     # Extract Memory (in GB)
     total_memory_gb = data["memory"]["total"] / (1024**3)  # Convert bytes to GB
     used_memory_gb = data["memory"]["used"] / (1024**3)  # Convert bytes to GB
-    memory_usage_percent = used_memory_gb / total_memory_gb  # Convert bytes to GB
+    memory_usage_percent = used_memory_gb / total_memory_gb * 100  # Convert bytes to GB
 
     # Extract CPU Information
     cpu_cores = data["cpuinfo"]["cores"]
@@ -42,51 +42,3 @@ def get_server_stats(request):
             },
         }
     )
-
-
-def get_system_stats2(request):
-    try:
-        # CPU Usage (%)
-        cpu_usage = psutil.cpu_percent(interval=1)
-
-        # CPU temperature
-        temps = psutil.sensors_temperatures()
-        # You might need to adjust this depending on your system.
-        if "coretemp" in temps:
-            temp = temps["coretemp"][0].current
-        else:
-            temp = None
-
-        # Memory (RAM) usage
-        memory_info = psutil.virtual_memory()
-        total_memory = memory_info.total / (1024**3)  # Convert to GB
-        used_memory = memory_info.used / (1024**3)  # Convert to GB
-        memory_percentage = memory_info.percent * 100
-
-        # Disk usage
-        disk_info = psutil.disk_usage("/")
-        total_disk = disk_info.total / (1024**3)  # Convert to GB
-        used_disk = disk_info.used / (1024**3)  # Convert to GB
-        disk_percentage = disk_info.percent
-
-        return JsonResponse(
-            {
-                "cpu": {
-                    "cpu_usage": cpu_usage,
-                    "cpu_temp": temp,
-                },
-                "memory": {
-                    "total": total_memory,
-                    "used": used_memory,
-                    "percent": memory_percentage,
-                },
-                "disk": {
-                    "total": total_disk,
-                    "used": used_disk,
-                    "percent": disk_percentage,
-                },
-            },
-            status=200,
-        )
-    except Exception as e:
-        return JsonResponse({"error": str(e)}, status=500)
