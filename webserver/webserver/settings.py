@@ -59,6 +59,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://liustev6.ca",
+    "https://www.liustev6.ca",
     "http://localhost:3000",
 ]
 
