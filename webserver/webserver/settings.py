@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "landsink",
     "food101",
+    "serverstats",
 ]
 
 MIDDLEWARE = [
