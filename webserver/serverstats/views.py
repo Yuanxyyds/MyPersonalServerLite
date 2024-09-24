@@ -61,7 +61,7 @@ def get_system_stats2(request):
         memory_info = psutil.virtual_memory()
         total_memory = memory_info.total / (1024**3)  # Convert to GB
         used_memory = memory_info.used / (1024**3)  # Convert to GB
-        memory_percentage = memory_info.percent
+        memory_percentage = memory_info.percent * 100
 
         # Disk usage
         disk_info = psutil.disk_usage("/")
