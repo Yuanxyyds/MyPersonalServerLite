@@ -1,1 +1,4 @@
 venv/
+webserver/food101/models/
+uploads/
+*__pycache__/
