@@ -16,10 +16,10 @@ MODEL_NAME = [
     "ResNet",
 ]
 MODEL_PATH = [
-    "food101/models/baseline_model_20class.keras",
-    "food101/models/vgg_model_20_class.keras",
-    "food101/models/inception_model_20_class.keras",
-    "food101/models/resnet_model_20_class.keras",
+    "food101/models/baseline_model_22_class.keras",
+    "food101/models/vgg_model_22_class.keras",
+    "food101/models/inception_model_22_class.keras",
+    "food101/models/resnet_model_22_class.keras",
 ]
 FOOD_LIST = [
     "Apple Pie",
@@ -34,6 +34,8 @@ FOOD_LIST = [
     "Dumplings",
     "French Fries",
     "Hot Dog",
+    "Hamburger",
+    "Frozen Yogurt",
     "Pizza",
     "Ramen",
     "Steak",
@@ -79,7 +81,9 @@ def classify(request):
                 first_predicted_label = FOOD_LIST[first_predicted_index]
                 prediction[0][first_predicted_index] = -1
                 second_predicted_index = np.argmax(prediction)
-                second_predicted_percentage = float(prediction[0][second_predicted_index])
+                second_predicted_percentage = float(
+                    prediction[0][second_predicted_index]
+                )
                 second_predicted_label = FOOD_LIST[second_predicted_index]
                 print(
                     f"Complete prediction with model {MODEL_NAME[i]}: {first_predicted_label} with prob {first_predicted_percentage},  {second_predicted_label} with prob {second_predicted_percentage}"
