@@ -2,3 +2,4 @@ venv/
 webserver/food101/models/
 uploads/
 *__pycache__/
+webserver/stevenai/model/

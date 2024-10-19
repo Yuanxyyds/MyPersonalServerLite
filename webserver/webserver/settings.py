@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-6*e7v)=3%#a037ld$vp+*ek+r1k-=o28pi7aoq_a_isy3wjb*0"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["webserver.liustev6.ca", "192.168.2.50", "127.0.0.1", "localhost"]
 
@@ -35,6 +35,7 @@ MEDIA_URL = '/uploads/'
 # Application definition
 
 INSTALLED_APPS = [
+    "channels",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -45,7 +46,10 @@ INSTALLED_APPS = [
     "landsink",
     "food101",
     "serverstats",
+    "stevenai"
 ]
+
+ASGI_APPLICATION = 'webserver.asgi.application'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
