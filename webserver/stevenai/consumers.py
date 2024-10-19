@@ -4,8 +4,8 @@ from channels.generic.websocket import WebsocketConsumer
 
 from . import models
 
-CLOSE_WITHOUT_CONNECT = 3000
-CLOSE_WITH_CONNECT = 3001
+CLOSE_WITHOUT_CONNECT = 1006
+CLOSE_WITH_CONNECT = 1000
 
 
 class ChatConsumer(WebsocketConsumer):
@@ -20,7 +20,7 @@ class ChatConsumer(WebsocketConsumer):
     def connect(self):
         # Check if a connection is already active
         if ChatConsumer.is_connected:
-            self.close(CLOSE_WITHOUT_CONNECT)
+            self.close(code=CLOSE_WITHOUT_CONNECT)
             return
         # Accept the connection
         self.accept()
@@ -37,7 +37,7 @@ class ChatConsumer(WebsocketConsumer):
         success = ChatConsumer.model_agent.load_model()
         # Handle Failure
         if not success:
-            self.close(CLOSE_WITH_CONNECT)
+            self.close(code=CLOSE_WITH_CONNECT)
             return
         # Handle Success
         self.send(
@@ -52,7 +52,7 @@ class ChatConsumer(WebsocketConsumer):
         self.start_timeout_timer()
 
     def disconnect(self, close_code):
-        if close_code == CLOSE_WITH_CONNECT:
+        if close_code != CLOSE_WITHOUT_CONNECT:
             # Reset the connection flag and stop the timer when this connection closes
             ChatConsumer.model_agent.unload_model()
             ChatConsumer.is_connected = False
@@ -101,4 +101,4 @@ class ChatConsumer(WebsocketConsumer):
                 }
             )
         )
-        self.close(CLOSE_WITH_CONNECT)
+        self.close(code=CLOSE_WITH_CONNECT)
