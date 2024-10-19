@@ -26,7 +26,7 @@ class ChatConsumer(WebsocketConsumer):
             text_data=json.dumps(
                 {
                     "code": "CA",  # Connection Accepted
-                    "message": "Connection established successfully!",
+                    "message": "Connection established successfully – Please allow 5-20 seconds for the model to load!",
                 }
             )
         )
@@ -41,7 +41,7 @@ class ChatConsumer(WebsocketConsumer):
             text_data=json.dumps(
                 {
                     "code": "ML",  # Model Loaded
-                    "message": "Model Loaded successfully!",
+                    "message": "Model loaded successfully - Feel free to send me some messages!",
                 }
             )
         )
