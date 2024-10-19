@@ -4,8 +4,8 @@ from channels.generic.websocket import WebsocketConsumer
 
 from . import models
 
-CLOSE_WITHOUT_CONNECT = -1
-CLOSE_WITH_CONNECT = 1
+CLOSE_WITHOUT_CONNECT = 3000
+CLOSE_WITH_CONNECT = 3001
 
 
 class ChatConsumer(WebsocketConsumer):
