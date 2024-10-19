@@ -9,18 +9,18 @@ CLOSE_WITH_CONNECT = 1000
 
 
 class ChatConsumer(WebsocketConsumer):
+    timeout_timer = None  # Initialize the timer for connection timeout
+    timeout_interval = 60  # Timeout interval in seconds
     is_connected = False
     model_agent = models.StevenAIBot()
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.timeout_timer = None  # Initialize the timer for connection timeout
-        self.timeout_interval = 60  # Timeout interval in seconds
 
     def connect(self):
         # Check if a connection is already active
         if ChatConsumer.is_connected:
-            self.close(code=CLOSE_WITHOUT_CONNECT)
+            # This will return code 1006
             return
         # Accept the connection
         self.accept()
@@ -37,7 +37,7 @@ class ChatConsumer(WebsocketConsumer):
         success = ChatConsumer.model_agent.load_model()
         # Handle Failure
         if not success:
-            self.close(code=CLOSE_WITH_CONNECT)
+            # This will return code 1006
             return
         # Handle Success
         self.send(
@@ -52,6 +52,7 @@ class ChatConsumer(WebsocketConsumer):
         self.start_timeout_timer()
 
     def disconnect(self, close_code):
+        print("RECEIVE CLOSE CODE: ", close_code)
         if close_code != CLOSE_WITHOUT_CONNECT:
             # Reset the connection flag and stop the timer when this connection closes
             ChatConsumer.model_agent.unload_model()
@@ -80,16 +81,16 @@ class ChatConsumer(WebsocketConsumer):
     # Function to start the timeout timer
     def start_timeout_timer(self):
         self.stop_timeout_timer()
-        self.timeout_timer = threading.Timer(
-            self.timeout_interval, self.close_due_to_timeout
+        ChatConsumer.timeout_timer = threading.Timer(
+            ChatConsumer.timeout_interval, self.close_due_to_timeout
         )
-        self.timeout_timer.start()
+        ChatConsumer.timeout_timer.start()
 
     # Function to stop the timeout timer
     def stop_timeout_timer(self):
-        if self.timeout_timer is not None:
-            self.timeout_timer.cancel()
-            self.timeout_timer = None
+        if ChatConsumer.timeout_timer is not None:
+            ChatConsumer.timeout_timer.cancel()
+            ChatConsumer.timeout_timer = None
 
     # Function to close the connection due to timeout
     def close_due_to_timeout(self):
