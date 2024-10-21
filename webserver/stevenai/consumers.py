@@ -37,7 +37,7 @@ class ChatConsumer(WebsocketConsumer):
         success = ChatConsumer.model_agent.load_model()
         # Handle Failure
         if not success:
-            # This will return code 1006
+            self.close(code=CLOSE_WITH_CONNECT)
             return
         # Handle Success
         self.send(
