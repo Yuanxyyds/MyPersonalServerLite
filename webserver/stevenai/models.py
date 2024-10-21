@@ -45,7 +45,7 @@ class StevenAIBot:
                 return False
         else:
             print("Model is already loaded.")
-        return False
+        return True
 
     def unload_model(self):
         """Unload the model and clear the conversation history."""
