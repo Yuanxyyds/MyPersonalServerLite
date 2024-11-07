@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     "landsink",
     "food101",
     "serverstats",
-    "stevenai"
+    "stevenai",
+    "translator"
 ]
 
 ASGI_APPLICATION = 'webserver.asgi.application'
@@ -65,6 +66,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "https://liustev6.ca",
     "https://www.liustev6.ca",
+    "https://ca-bilingual-translator.vercel.app",
     "http://localhost:3000",
 ]
 

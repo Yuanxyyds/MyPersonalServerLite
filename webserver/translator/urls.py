@@ -1,5 +1,5 @@
 """
-URL configuration for webserver project.
+URL configuration for translator app.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -14,14 +14,11 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path("landsink/", include("landsink.urls")),
-    path("food101/", include("food101.urls")),
-    path("serverstats/", include("serverstats.urls")),
-    path("stevenai/", include("stevenai.urls")),
-    path("translator/", include("translator.urls"))
+    path("translate_fr_to_en", views.translate_fr_to_en, name="translate_fr_to_en"),
+    path("translate_en_to_fr", views.translate_en_to_fr, name="translate_en_to_fr"),
 ]
