@@ -102,4 +102,8 @@ class ChatConsumer(WebsocketConsumer):
                 }
             )
         )
+        # Force Timeout reset to prevent socket close issues
+        print("Timeout received. Reset forcely")
+        ChatConsumer.model_agent.unload_model()
+        ChatConsumer.is_connected = False
         self.close(code=CLOSE_WITH_CONNECT)
