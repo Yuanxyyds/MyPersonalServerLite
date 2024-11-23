@@ -2,5 +2,6 @@ venv/
 webserver/food101/models/
 uploads/
 *__pycache__/
-webserver/llm_runner/model/
+webserver/llm_runner/model-stevenai/
+webserver/llm_runner/model-mentorai/
 webserver/translator/models/

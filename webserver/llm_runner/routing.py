@@ -1,7 +1,13 @@
-from django.urls import re_path 
+from django.urls import re_path
 from . import consumers
 
 websocket_urlpatterns = [
-    re_path(r'ws/socket-server/', consumers.ChatConsumer.as_asgi(), kwargs={'model': 'StevenAI'}),
-    re_path(r'ws/socket-server-mentor-ai/', consumers.ChatConsumer.as_asgi(), kwargs={'model': 'MentorAI'})
+    re_path(
+        r"ws/socket-server/",
+        consumers.ChatConsumer.as_asgi(initkwargs={"model": "StevenAI"}),
+    ),
+    re_path(
+        r"ws/socket-server-mentor-ai/",
+        consumers.ChatConsumer.as_asgi(initkwargs={"model": "MentorAI"}),
+    ),
 ]
