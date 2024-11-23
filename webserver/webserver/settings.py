@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     "landsink",
     "food101",
     "serverstats",
-    "stevenai",
+    "llm_runner",
     "translator"
 ]
 

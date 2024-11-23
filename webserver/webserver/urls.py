@@ -22,6 +22,6 @@ urlpatterns = [
     path("landsink/", include("landsink.urls")),
     path("food101/", include("food101.urls")),
     path("serverstats/", include("serverstats.urls")),
-    path("stevenai/", include("stevenai.urls")),
+    path("llm/", include("llm_runner.urls")),
     path("translator/", include("translator.urls"))
 ]

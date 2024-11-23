@@ -2,10 +2,10 @@ import torch
 from transformers import pipeline
 
 
-class StevenAIBot:
+class ModelRunner:
     def __init__(
         self,
-        model_id="/root/server/MyPersonalWebServer/webserver/stevenai/model",
+        model_id="/root/server/MyPersonalWebServer/webserver/llm_runner/model",
         torch_dtype=torch.bfloat16,
         device_map="auto",
     ):
