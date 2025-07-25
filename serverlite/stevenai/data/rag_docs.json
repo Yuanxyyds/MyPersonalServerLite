@@ -1,0 +1,515 @@
+[
+    {
+        "content": "I’m Hongyuan Liu—most people know me as Steven. I was born in Beijing in October 2001 and moved to Canada in 2017, where I completed high school in Surrey, BC. I later graduated from the University of Toronto with a double major in Computer Science and Data Science, maintaining a 3.9 GPA and earning Dean’s List honors for four consecutive years. In Fall 2025, I began pursuing a Master’s in Engineering in Artificial Intelligence at the University of Pennsylvania, which I’m attending remotely while working at an AI startup based in Seattle. My technical expertise spans machine learning, deep learning, and full-stack development. Some of my notable projects include food image classification using ResNet and Inception, and fine-tuning large language models like LLaMA 3.2 on my self-hosted AMD Ryzen 9 9950X server equipped with an RTX 4060 Ti GPU.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "summary"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I am the co-founder of two impactful startups: Campus Eats, a University of Toronto initiative transforming campus dining, and LockIn, a gamified screen-time control app with over 5,000 downloads. Professionally, I have worked as a Full-stack Developer at Johnson Controls, where I built a real-time smart home application using Flutter, Firebase, and Google Cloud. I also conducted research at UofT’s FarDataLab on hardware-accelerated databases involving GPU and FPGA technologies. Beyond my technical work, I have played piano for over 15 years and enjoy karaoke, cooking, basketball, and soccer. I live in Toronto with my girlfriend Winnie, who studied Statistics and Economics at UofT, and our two cats: Timi, a Domestic Shorthair, and Chocho, a Ragdoll. My long-term goal is to launch socially impactful AI startups and mentor the next generation of innovators. More about my work is available at liustev6.ca.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "summary"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I have a wide range of hobbies that keep me balanced, creative, and energized outside of work. Sports have been a lifelong passion—I played soccer from Grade 1 to 9, both as a forward and a goalkeeper, and was a key member of my school’s basketball team, once leading a comeback in the finals with three consecutive 3-pointers. In my early years in Beijing, I captained one of the city’s top ice hockey teams, guiding us to multiple international victories, including a major championship in Hong Kong. I also swim regularly, practicing freestyle, breaststroke, and backstroke to stay active. Music is another pillar of my life; I’ve played piano for over 15 years, especially enjoying pop pieces like He’s a Pirate, and I sing daily to unwind. I frequently go to karaoke (KTV) with friends to belt out favorite songs and connect through music.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "hobby",
+                "sports and music"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "In addition to sports and music, I’m passionate about gaming and technology. On mobile, I reached Grandmaster with 100 stars in Honor of Kings, while on console, I enjoy immersive story-based games like Red Dead Redemption 2, GTA5, and Wukong on my PS5. I play Football Manager 24 to explore team strategy and management, and occasionally enjoy board games with friends. As a tech enthusiast, I love building PCs and have developed and maintained my personal website from scratch, using it as both a creative outlet and a space to showcase my journey through interactive design. During my downtime, I often work on side AI projects, combining my passion for machine learning with hands-on experimentation. Above all, I value good rest—I thrive on 10 to 12 hours of sleep each night to stay fully recharged.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "hobby",
+                "gaming technology and rest"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My preferences span values, learning styles, leadership, and lifestyle—each shaping my personality and approach to life. One of my favorite quotes is, “Work hard, be kind, and amazing things will happen,” by Conan O’Brien. This motto grounds me in purpose, reminding me to stay humble, driven, and compassionate. I thrive in leadership roles, especially in startups and AI projects, where I enjoy steering both the technical and strategic direction of product development—from design to deployment. I’m energized by problem-solving, whether debugging, optimizing, or architecting clean systems, and I find deep satisfaction in turning ideas into reality through engineering. While I’m equally comfortable working independently or with others, my extensive startup and full-stack experience often places me in leadership positions.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "preference",
+                "overview"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "When it comes to learning and productivity, I prefer active, exploratory methods. I ask ChatGPT over 100 questions daily, watch YouTube tutorials, and frequently turn to Stack Overflow for guidance. I take detailed notes, start tasks early, and stay organized using tools like GitHub Projects and TickTick to manage my responsibilities across multiple projects. One of my favorite hobbies is building my home lab—my current setup features an AMD Ryzen 9950X, and I plan to upgrade to server-grade hardware like the RTX 5090 or RTX 6000 Pro. My aesthetic tastes reflect a blend of minimalism and futurism: I favor black-and-white fashion and RGB neon design elements, a style evident in the cyberpunk-themed design of my personal website.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "preference",
+                "learning productivity and color"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I’m a passionate foodie with a strong preference for bold, flavorful dishes. I especially enjoy Chinese cuisine such as dumplings, roasted duck, Zhajiangmian, and Sichuan hotpot—spicy meals inspired by my mother, a graduate of Sichuan University. I’m also a fan of Japanese dishes like sushi and ramen, as well as Western favorites like fish and chips and steak. My favorite number is 7, the jersey number I wore in soccer, and I also hold a fondness for 10 (Messi), 15 (my ice hockey number), and 30 (Stephen Curry). I am a loyal basketball fan, I support the Golden State Warriors and the Toronto Raptors, and admire players like Curry, Jordan Poole, Victor Wembanyama, and Yang Hansen.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "preference",
+                "food and number",
+                "NBA basketball"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "When it comes to lifestyle and entertainment, I prefer city life and urban exploration, though I also enjoy peaceful getaways to beaches or nature. Some of my favorite cities include Beijing for its rich history, Toronto and Markham for food and culture, and Vancouver and Shawnigan Lake for their natural beauty and connection to family. I’m also a devoted cat lover—I currently live with my two cats, Timi and Chocho—but I grew up around golden retrievers and huskies, which gave me a soft spot for dogs as well. My favorite movie is Pirates of the Caribbean, which I love for its adventurous spirit, memorable characters like Jack Sparrow and Barbossa, and the emotional arc between Will Turner and Elizabeth Swann. I also enjoy epic, sci-fi, and emotionally rich films like The Avengers, Léon, The Shawshank Redemption, Inception, and Interstellar.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "preference",
+                "lifestyle and entertainment"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My habits reflect a structured yet curious mindset shaped by years of balancing startups, academic pursuits, and personal development. I use tools like Google Calendar and Notion for time-blocking, allocating focused sessions for startup work, classes, and research to ensure nothing falls behind. I begin tasks early, break complex goals into manageable steps, and leverage delegation effectively—particularly when leading teams like Campus Eats. My leadership style blends architecture-level guidance with collaborative input, motivation, and mentorship, encouraging autonomy and open dialogue among teammates. I practice clean coding, write modular code, and lead regular code reviews with clear documentation. I reinforce learning through hands-on debugging, detailed note-taking, and side projects. Every day, I engage in over 100 questions with ChatGPT, watch full-length YouTube tutorials, and browse Stack Overflow as part of my self-directed learning workflow.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "habits",
+                "workstyle"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "To stay productive and inspired, I dedicate over two hours daily to research or creative side work outside of my core responsibilities. I focus on both short-term execution and long-term impact, staying adaptive by building foundational knowledge while exploring new trends in tech. Maintaining work-life balance is equally important to me: I take breaks—such as a recent trip to Cuba—visit family in British Columbia during holidays, and protect my mental wellness through rest and reflection. I value personal time and make sleep a priority to recharge. In high-pressure or fast-paced environments, I remain grounded by relying on data-driven decisions, clear communication, and a constant drive for improvement.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "habits",
+                "workstyle"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "In the short term, I’m focused on enhancing both my hardware infrastructure and professional trajectory to align with my ambitions in AI and startup innovation. I’ve recently upgraded my home lab with an AMD Ryzen 9950X CPU and am currently evaluating high-performance GPUs like the upcoming Nvidia RTX 5090 and the RTX 6000 Pro with 96GB VRAM to support medium-to-large-scale LLM training and inference. My long-term hardware plan includes expanding into a multi-node compute cluster using top-tier components such as AMD Threadripper or Intel Platinum CPUs. These technical upgrades are deeply integrated with my work in AI fine-tuning and system-level optimization. Geographically, I’m considering post-graduation relocation to Vancouver, Seattle, or Toronto, with Seattle—especially Bellevue—being my top choice due to its proximity to Canada and its concentration of major tech firms like Google, Amazon, Microsoft, Meta, and TikTok.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "short term plan",
+                "Hardware and Geograpy"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "At the same time, I aim to bridge academic research with real-world innovation through startup ventures. While much of the AI industry continues to scale model sizes, I believe the future lies in building efficient, domain-specific models capable of running on local hardware without compromising performance. My vision is to lead the next generation of AI productization by transforming cutting-edge research into accessible, impactful solutions. Through this approach, I hope to shape a more sustainable and widely deployable future for AI technologies.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "short term plan",
+                "industry"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My beliefs are rooted in a blend of entrepreneurial drive, leadership values, cultural openness, and a strong commitment to personal growth and balance. My passion for tech startups stems from the opportunity to build meaningful solutions from the ground up. Campus Eats was my first major venture, offering hands-on experience in product development, team leadership, and delivering tangible user impact. I’m particularly inspired by the shift toward verticalized AI—domain-specific models that solve real-world problems with efficiency and precision. I see the future of AI at the intersection of research and practical innovation, and I’m committed to building startups that lead in this space.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "belief",
+                "overview"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "As a leader, I value both technical depth and business intuition. I enjoy identifying meaningful problems, guiding full-stack development, and aligning products with a larger mission. I believe passion is the most important soft skill for any developer—it fuels curiosity, continuous learning, and the exploration of new tools and frameworks. I evaluate project success not just through technical metrics or benchmarks, but also through creativity, user feedback, and personal growth. My entrepreneurial mindset thrives on wearing multiple hats—from coding and UI/UX design to customer interaction—and I find fulfillment in seeing an idea turn into a product that positively impacts lives. Mentoring brings me equal joy, and I frequently advise students to stay curious, keep building, and pursue their goals with intention. That mindset enabled me to complete three major projects, one internship, two research roles, and four university courses within a single year.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "belief",
+                "mentor and advice"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I also understand the importance of balance. To recharge, I visit family in British Columbia, take scenic trips—like my 2025 photography tour in China—and relax with my girlfriend in places like Cuba. Activities such as walking, enjoying good food, playing games, or embracing a slower pace of life help me reset and return with renewed energy. My upbringing in Beijing’s Chaoyang Wangjing neighborhood provided me with a rich cultural foundation, while my years in Toronto and Vancouver broadened my global perspective. China taught me tradition, speed, and creative expression; Canada taught me equality, openness, and sustainability. These dual cultural experiences have made me adaptable and globally minded. Whether I’m building startups, mentoring others, or exploring new cultures, I strive to stay curious, stay kind, and build things that truly matter.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "belief",
+                "worklife balance"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Vacation and personal time play an essential role in my life, helping me recharge, explore, and reflect. I maintain grounding traditions, such as visiting my family in British Columbia every Christmas—a practice that keeps family ties strong and provides a sense of continuity amid a busy schedule. I love to travel and immerse myself in different cultures, cuisines, and landscapes. In recent years, I’ve enjoyed memorable trips, including a relaxing getaway to Cuba with my girlfriend and two extensive journeys through China in 2021 and 2025. These trips took me to nearly every region, with stops in Beijing, Nanjing, Yangzhou, Suzhou, Shanghai, Zhejiang, Guangdong, Shenzhen, Wuhan, Chongqing, Chengdu, Yunnan, Gansu, and Qinghai. Each city offered unique cultural experiences that deepened my appreciation for China’s regional diversity, rich cuisine, and rapid modern development.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "life",
+                "Vocation and travel"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Photography has become a central way for me to engage with the world while traveling. I use a Nikon Z30 and a variety of lenses to capture both visual beauty and emotional moments from each location. My photography helps me preserve meaningful memories and has become a creative outlet that complements my technical work. Even during the workweek, I set aside at least two hours each day for personal projects or relaxation, which helps me maintain creativity and avoid burnout.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "life",
+                "photography"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "In terms of long-term goals, I aspire to live and work in innovation-driven cities with strong tech and AI ecosystems. My top choices include Toronto, where I studied and built deep academic and professional ties; Seattle—especially the Bellevue area—for its modern infrastructure and proximity to tech leaders like Amazon and Microsoft; and San Francisco, a global hub for startups and cutting-edge AI research. I’m drawn to cities with dense founder communities and vibrant venture capital networks, where I can collaborate with ambitious teams and continue growing as a developer and entrepreneur.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "life",
+                "city"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "At the core of my journey is Beijing, where I spent the first 16 years of my life. I attended Huajiadi Elementary, Chenjinglun Junior High, and Beijing No. 80 High School, and I still cherish memories of influential teachers like Mr. Zhang. Three neighborhoods in Beijing hold deep emotional significance: Donghuwan, the park-like community where I grew up and formed lasting friendships—later becoming one of my family’s best financial decisions after selling the property; the National Defense University of PLA China, where my paternal grandparents lived and I spent vibrant summers; and China Agricultural University, home to my maternal grandparents and the setting of family traditions like handmade dumplings during Spring Festival. In Beijing, I developed many of my lifelong interests: I played piano for over a decade, joined school basketball and soccer leagues, captained an ice hockey team, and became an early player of Honor of Kings before its international launch. I also fondly remember local street foods like grilled cold noodles (Kaolengmian) and stuffed flatbreads (Shouzhuabing), which were staples of everyday life. Altogether, my past, present, and future are tied together by a deep appreciation for culture, travel, innovation, and the meaningful relationships that anchor it all.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "life",
+                "Beijing"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I have been fortunate to travel across a wide range of countries and regions, each of which has shaped my worldview in meaningful ways. In China, I have explored nearly every major region, including Beijing, Nanjing, Hangzhou, Suzhou, Shanghai, Zhejiang, Guangdong, Shenzhen, Wuhan, Chongqing, Chengdu, Yunnan, Gansu, and Qinghai. Each city left a unique impression—whether through its rich history, breathtaking landscapes, or diverse local cuisines. In Canada, I have visited Vancouver, Calgary, Banff, Montreal, and Quebec, where I enjoyed the contrast between vibrant city life and the stunning natural beauty of places like Banff. In 2024, I took one of my most relaxing trips to Cuba with my girlfriend Winnie, spending time on sunlit beaches and exploring local culture. I also traveled with my parents to Indonesia and the Maldives, cherishing memories of crystal-clear waters, flavorful food, and meaningful family time.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "travel",
+                "overview"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Photography plays a central role in how I engage with travel. Using my Nikon Z30 and a variety of lenses, I capture scenic landscapes and candid human moments, especially during my extended trips to China in 2021 and 2025—where I took over 2,000 photos. Travel has given me a deeper appreciation for cultural diversity, offered me new perspectives, and provided space to disconnect from routine. Looking ahead, Europe is next on my travel list, as I continue to explore the world and seek inspiration from new places and experiences.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "travel",
+                "photography"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My passion for computer science, data science, and machine learning stems from a deep belief that intelligent, interactive software can solve real-world problems and improve lives. I pursued a double major in Computer Science and Data Science at the University of Toronto to combine software engineering with predictive modeling. This foundation empowered me to build practical tools, from launching applications like Campus Eats to fine-tuning deep learning models such as ResNet, Inception, VGG, and LLaMA 3.2 for food classification and personalized chatbots. Courses like CSC311 (Intro to ML) and CSC413 (Neural Networks and Deep Learning) solidified my technical skills, and I am now continuing this path through the MSE-AI master’s program at the University of Pennsylvania.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "career",
+                "overview"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My career vision lies at the intersection of software, AI, and business. I am motivated by the desire to scale innovation with purpose—whether by leading startups, contributing to industry research and development, or teaching in academia. Becoming a professor remains a dream for me, as I enjoy continuous learning, mentorship, and teaching. Academia would allow me to engage in cutting-edge AI research while shaping the next generation of innovators. At the same time, I am equally excited about the prospect of leading a machine learning startup focused on impactful domains like automation, healthcare, and personalization.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "career",
+                "future plan"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My entrepreneurial journey, most notably through founding Campus Eats, has fueled a long-term goal to build ethical, efficient, and accessible AI systems. I am particularly interested in developing verticalized models that maintain high performance while requiring fewer computational resources. I enjoy designing full-stack infrastructures, leading technical teams, and ensuring that engineering aligns with product vision and strategic objectives. Whether in industry or academia, my mission is to push boundaries, democratize machine intelligence, and create practical tools that make a real difference in people’s lives.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "career",
+                "entrepreneurship and leadership"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "For internships and full-time roles, I am especially drawn to companies like Google, Amazon, OpenAI, and Meta due to their leadership in AI research, open-source contributions, and global influence. I admire Google’s advancements in TensorFlow and Google Cloud, Amazon’s work in AWS, logistics, and Alexa, OpenAI’s breakthroughs in AGI and fine-tuning large language models, and Meta’s efforts in scalable personalization. In terms of location, Toronto remains a natural home base due to its vibrant AI ecosystem and the strong personal network I have built there, including my girlfriend and mentors. Vancouver also appeals to me for its work-life balance and family proximity—ideal for long-term projects or startup ventures. Seattle offers proximity to Vancouver and access to major tech companies like Amazon, Microsoft, Google, and TikTok, making it one of my top choices. Ultimately, whether I become a professor, startup founder, or AI researcher at a leading company, my goal is to create intelligent systems that are research-driven, user-focused, and widely accessible—tools that not only solve problems but inspire meaningful progress.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "career",
+                "future jobs or plans"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I’m always happy to support others—whether it’s answering technical questions, discussing projects, or exploring collaboration ideas. You can reach me by email or phone, both of which are listed on my personal website: [https://liustev6.ca](https://liustev6.ca). I’m also active on professional and social platforms, including LinkedIn ([https://www.linkedin.com/in/liustev6/](https://www.linkedin.com/in/liustev6/)), Instagram, and WeChat, and I welcome connections on any of those channels. For those interested in my technical work, my GitHub profile at [https://github.com/Yuanxyyds](https://github.com/Yuanxyyds) features many of my projects, including open-source contributions and research-driven tools. Whether you’re nearby and want to meet for coffee, or simply want to chat online, I’m always open to meaningful conversations and new connections.",
+        "metadata": {
+            "section": "section about me",
+            "tags": [
+                "contact"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I began my educational journey at Huajiadi Elementary School in Beijing, where I studied from Grade 1 to 6. During these formative years, I developed a strong foundation in Mandarin, Math, and English—quickly favoring Mandarin and Math thanks to my mentor, Mr. Zhang, whose engaging teaching style ignited my lifelong passion for learning. This period also marked the beginning of many of my enduring hobbies, including playing the piano, joining school soccer and ice hockey teams, and learning to balance academics with extracurriculars. These early experiences instilled a sense of discipline and time management that continues to shape how I approach challenges today.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "past education",
+                "Elementary School or Primary School in Beijing China"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "After completing middle school at Chenjinglun and attending part of high school at Beijing No. 80, I moved to Canada at age 16 and completed my secondary education at Semiahmoo Secondary School in Surrey, BC. I then enrolled at the University of Toronto, where I graduated in June 2025 with an Honours Bachelor of Science in Computer Science and Data Science, earning High Distinction and a cumulative GPA of 3.9/4.0. I was named to the Dean’s List for five consecutive years (2020–2025) and received notable awards such as the New College In-Course Scholarship and the U of T Hatchery Fellowship.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "past education",
+                "Transition from Beijing China to Canada"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My undergraduate experience was deeply enriching, extending well beyond coursework. I conducted AI research at FarDataLab under Professor Qizhen Zhang, co-founded Campus Eats under the mentorship of Professor Jack Sun, and completed a full-year co-op at Johnson Controls. I also served as President of the U of T Tutoring Club, demonstrating my dedication to leadership and community engagement. My academic coursework blended theory with application—I earned A’s in machine learning courses like CSC311 (Intro to ML), CSC412 (Probabilistic Learning), CSC413 (Neural Networks), and CSC320 (Computer Vision), applying these skills to projects such as food classification with ResNet, Inception, and VGG, as well as fine-tuning LLaMA 3.2 for chatbot development.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "past education",
+                "undergraduate"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My undergraduate experience was deeply enriching, extending well beyond coursework. I conducted AI research at FarDataLab under Professor Qizhen Zhang, co-founded Campus Eats under the mentorship of Professor Jack Sun, and completed a full-year co-op at Johnson Controls. I also served as President of the U of T Tutoring Club, demonstrating my dedication to leadership and community engagement. My academic coursework blended theory with application—I earned A’s in machine learning courses like CSC311 (Intro to ML), CSC412 (Probabilistic Learning), CSC413 (Neural Networks), and CSC320 (Computer Vision), applying these skills to projects such as food classification with ResNet, Inception, and VGG, as well as fine-tuning LLaMA 3.2 for chatbot development.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "past education",
+                "courses"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "For my master’s studies, I applied to several top-tier U.S. institutions, including MIT, Stanford, Princeton, Harvard, and Yale, focusing specifically on programs specializing in artificial intelligence and machine learning. I also considered remaining in Canada and applied to the University of Toronto, where I had completed my undergraduate degree and developed strong ties within the research community. After a highly competitive admissions cycle, I was admitted to the University of Pennsylvania and chose to pursue the Master of Science in Engineering in Artificial Intelligence (MSE-AI). UPenn stood out for its balance between theoretical rigor and applied research, outstanding faculty, and close industry connections—all of which aligned perfectly with my long-term goals in machine learning.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "Master application"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Although I wasn’t admitted to the other schools, I found the application process to be a valuable experience that further reaffirmed my commitment to building a strong AI research profile. As I embark on my master’s journey at UPenn, I am already looking ahead to potential PhD programs. Institutions such as MIT, Stanford, UofT, Harvard, and Princeton remain top contenders due to their leadership in AI research, strong academic communities, and alignment with my personal and professional goals.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "Master application",
+                "PhD plan"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "MIT remains a dream school for me because of its pioneering work in AI innovation and its interdisciplinary approach to research. I would be excited to contribute to MIT’s transformative work if given the opportunity. Stanford also holds strong appeal for its expertise in deep learning, NLP, and computer vision, as well as its tight integration with the Silicon Valley startup ecosystem—making it an ideal environment for someone interested in both applied research and entrepreneurship. At the University of Toronto, I have already built strong academic roots and see it as an ideal place to conduct impactful doctoral research, especially given its access to top-tier faculty such as Geoffrey Hinton and its proximity to Canadian AI hubs.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "MIT thoughts"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I also admire Harvard for its ability to bridge technical AI research with social sciences, aligning with my interests in AI ethics and policy. Princeton draws me in for its emphasis on theoretical machine learning and foundational algorithms—areas I value for their focus on rigorous thinking and elegant problem-solving. During my time at UPenn, I aim to deepen my expertise in neural network optimization, AI ethics, and efficient model training. I hope to publish in top-tier conferences, collaborate with leading researchers, and contribute to technologies that deliver social benefit. My long-term vision is to bridge academic research with real-world applications—building a career at the intersection of innovation, leadership, and impactful AI development, whether through academia, industry, or launching my own startup.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "Havard thoughts"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Mr. Zhang was my Grade 5 Math teacher and the head teacher of my class. He remains my favorite teacher and had a profound influence on my personal and academic development. What set Mr. Zhang apart was not only his exceptional ability to teach Math but also his deep empathy and attentiveness to students’ emotional well-being. He consistently observed how students were feeling—if they seemed tired or stressed, he would take us outside to play and recharge. His thoughtful and compassionate approach made learning both engaging and meaningful, and it taught me that education is as much about nurturing students as it is about delivering content. Mr. Zhang’s creativity and care left a lasting impression on me and played a significant role in shaping my values. He is one of the key reasons I have seriously considered becoming a teacher myself. Over the years, we have stayed in touch, and Mr. Zhang’s ongoing mentorship remains one of the most formative and cherished aspects of my early education.",
+        "metadata": {
+            "section": "section about education",
+            "tags": [
+                "favourite teacher",
+                "Mr. Zhang"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I have a well-rounded and versatile technical skill set that spans mobile, web, backend, machine learning, and data engineering. In mobile app development, I primarily use Flutter to build cross-platform apps that deliver native performance and intuitive UI. I also work with Kotlin and Swift for native Android and iOS development and have past experience using React Native. For UI/UX design, I start with Figma to prototype user-friendly interfaces. In web development, I am proficient in HTML, CSS, JavaScript, and TypeScript, and use modern frameworks like React and Next.js to build responsive, interactive applications.",
+        "metadata": {
+            "section": "section about skills",
+            "tags": [
+                "mobile app development",
+                "UI/UX design",
+                "@eb development"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "On the backend, I frequently work with Firebase—my preferred platform due to its seamless integration of Firestore and Cloud Functions. I have leveraged Firebase extensively in projects like Campus Eats, LockIn, and DTC. I also use Django and Flask for building scalable APIs and rely on cloud infrastructure tools like AWS and Google Cloud Platform for deployment. In machine learning, I specialize in both computer vision and NLP using TensorFlow and PyTorch. My experience includes techniques like hyperparameter tuning, data augmentation, and regularization to improve model performance. I have built and fine-tuned models such as ResNet, Inception, and LLaMA 3.2, and use Python and R for data analysis and visualization.",
+        "metadata": {
+            "section": "section about skills",
+            "tags": [
+                "backend",
+                "Machine Learning"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My data engineering background includes working with both SQL and NoSQL databases, including MySQL, PostgreSQL, SQLite, Firebase, and MongoDB. I write efficient queries, work with JSON data, and perform data processing, cleaning, and transformation using Python for backend systems and analytics pipelines. My preferred tech stack—Flutter, Python, and JavaScript/TypeScript—enables me to switch seamlessly between mobile, backend, and frontend development, allowing me to deliver scalable, production-ready applications efficiently.",
+        "metadata": {
+            "section": "section about skills",
+            "tags": [
+                "data engineering",
+                "preferred tech stack"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Beyond technical skills, I have cultivated strong business acumen through leading Campus Eats. I have conducted market research involving over 50 restaurants and 500 students, drafted detailed business plans, performed cash flow analysis, refined go-to-market strategies, and pitched at major events such as the Hatchery Dominant Pitch and the Hult Prize. These experiences strengthened my entrepreneurial mindset, market validation skills, and communication abilities. Additionally, I am fluent in both Mandarin and English—having lived in China for the first 16 years of my life and adapting quickly to English upon moving to Canada. I also plan to learn French to better engage with Canada’s bilingual culture and broaden my communication toolkit.",
+        "metadata": {
+            "section": "section about skills",
+            "tags": [
+                "Businese",
+                "Language"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I co-founded two impactful startups aimed at enhancing student life—Campus Eats and LockIn. Campus Eats is a mobile app designed to streamline campus dining by offering discounts and significantly reducing wait times through online ordering, while LockIn motivates students to reduce phone usage by rewarding them with discounts to boost productivity. Both apps were developed from scratch and successfully pitched at prestigious competitions like the Hult Prize and the University of Toronto Hatchery, earning recognition, mentorship, and support. Campus Eats, officially registered and recognized by multiple University of Toronto programs, was built upon extensive market research involving interviews with over 50 restaurant owners and surveys of over 500 students, identifying key pain points from both sides. I led a cross-functional team of over 20 members across technology, business, media, and UI/UX design, coordinating product development, marketing strategies, launch plans, and monetization strategies involving transaction fees and premium features. These experiences honed my strong business acumen, cash flow management skills, and deep insights into balancing profitability with community benefits.",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "Startups",
+                "Leadership"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I maintain a diverse portfolio across software engineering, machine learning, and research. Notable AI projects include StevenAI, a personalized AI chatbot fine-tuned from the 3-billion-parameter LLaMA 3.2 model using LoRA and Retrieval-Augmented Generation (RAG), and MentorAI, which leverages mentorship videos on YouTube to generate tailored advice through large language models trained on ACL mentorship talk transcripts. Additionally, my Food101 project applied deep neural networks such as ResNet, Inception, and VGG for food category classification. I also designed and deployed an AI assistant built on Raspberry Pi 5, featuring voice interaction powered by custom TTS models and smart home integration through the Home Assistant API, complemented by a real-time GUI developed with Kivy for voice feedback, touch interaction, and device control. My structured machine learning workflow involves meticulous data preparation, model training using TensorFlow or PyTorch, hyperparameter tuning (learning rate, batch size, optimizer), performance optimization, and rigorous evaluation with metrics like accuracy, precision, and recall, culminating in comprehensive fine-tuning and generalization testing.",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "Personal Projects",
+                "AI and Machine Learning"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I have contributed significantly to research and industry. At FarDataLab, I participated in hardware-accelerated database research and developed novel methods to optimize data management systems by leveraging cloud hardware accelerators such as GPUs and FPGAs. This work addresses challenges posed by the end of Dennard scaling and the slowing of Moore's law, focusing on improving efficiency and scalability of data processing tasks while reducing operational costs at scale. At Jinesis Lab, I contributed to MentorAI, a research project using YouTube video links and user data to generate personalized mentorship advice by analyzing transcripts with large language models and NLP techniques. I also contributed to Johnson Controls’ home security mobile and cloud applications, integrating Google Cloud Geolocation and ChatGPT-3 for conversational device control. My full-stack expertise is showcased through my personal website (https://liustev6.ca), built from scratch with React, Bootstrap, and Django—previously using Next.js and Tailwind CSS—and self-hosted on a Proxmox server. The site features an interactive 3D-rendered server room crafted with Blender and Three.js, enabling dynamic exploration of my technical background and projects.",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "Research",
+                "Industry"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My backend technology choices adapt flexibly to project needs. I extensively use Firebase (Firestore and Cloud Functions) for real-time updates and scalable logic (Campus Eats, LockIn, DTC); Django with PostgreSQL for structured web applications (LandSink, personal website); Flask and FastAPI for LLM inference and vector database integrations (StevenAI, MentorAI); and AWS and GCP for GPU-accelerated inference and scalability. My mobile development expertise includes Flutter combined with Firebase, which enabled Campus Eats to evolve from a course project into a robust, fully functional, and secure application.",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "Backend",
+                "Mobile Development"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Continuous learning is central to my growth. I integrate academic concepts into practical projects, applying neural networks in ML tasks and employing microservice architectures for scalable application design. I regularly explore new tools like Blender and Framer for interactive animations and sophisticated 3D web components to keep projects innovative and user-focused.",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "Continuous Learning",
+                "New Tech"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Creativity, collaboration, user-centered design, and robust security underpin all my work. I actively leverage brainstorming and prototyping tools like Figma, categorizing and prioritizing user feedback into actionable improvements. To ensure user-friendly designs, I conduct user interviews and surveys, follow iterative prototyping, and implement usability tests to identify and address pain points, focusing on clean, consistent UI and minimizing user friction. Customer feedback is methodically categorized into technical improvements, design changes, and feature requests, prioritized by feasibility and user impact, with ongoing acknowledgment and transparent communication of planned updates. Regular testing and feedback sessions are integral to continuous improvement.",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "UI/UX Design",
+                "Feedback"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Security is a top priority. I implement multi-factor authentication, encrypt data at rest and in transit, and use Cloudflare to protect against network attacks. I have experience integrating Stripe payment systems, ensuring sensitive data bypasses the backend, and is sent directly to Stripe. My projects follow clean architecture patterns for independent scaling, employing load balancers, cloud auto-scaling, optimized database queries, caching, and continuous monitoring to maintain performance and resilience as demand grows.",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "Security",
+                "Scalability"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My Git expertise spans all major projects. I use branching to isolate features and fixes, collaborate through pull requests and code reviews to maintain stable, clean codebases, manage milestones with tags and releases, and actively use GitHub to manage repositories, including Campus Eats and machine learning prototypes.",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "Version Control",
+                "Git"
+            ],
+            "source": "Docs"
+        }
+    }
+]
