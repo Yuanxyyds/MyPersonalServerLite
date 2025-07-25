@@ -323,7 +323,12 @@
     "content": "Q: What is your favorite quote, and how does it inspire you?\nA: My favorite quote is 'Work hard, be kind, and amazing things will happen' by Conan O'Brien. It inspires me to stay focused and be kind in all my endeavors.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "inspiration",
+        "quote",
+        "mindset",
+        "values"
+      ],
       "source": "Self Description"
     }
   },
@@ -331,7 +336,14 @@
     "content": "Q: What’s your favorite part of the development process?\nA: My favorite part of the development process is undoubtedly problem-solving. When faced with a complex technical challenge, I enjoy breaking it down into smaller, manageable components and finding efficient, elegant solutions. Whether it's debugging an issue, optimizing a machine learning model, or creating a seamless user interface, the sense of accomplishment when I solve a problem keeps me motivated. I also love the iterative nature of development, where each new solution improves upon the last. For example, with Campus Eats, building the app’s food ordering system required balancing backend performance with a smooth user experience, and overcoming these challenges was incredibly rewarding. Lastly, seeing an idea turn into a functional product that users can interact with gives me a great sense of satisfaction. It’s this combination of creativity, logic, and impact that makes development an exciting process for me.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "problem-solving",
+        "development",
+        "motivation",
+        "engineering",
+        "software design",
+        "creativity"
+      ],
       "source": "Self Description"
     }
   },
@@ -339,15 +351,31 @@
     "content": "Q: How do you prefer to study?\nA: I prefer an active and hands-on approach to studying. I use ChatGPT a lot, asking around 100 questions a day to clarify concepts or get explanations on difficult topics. YouTube tutorials help me dive deeper into subjects with full-length videos, and I often turn to Stack Overflow for more niche or uncommon issues. I also like to start working on tasks as soon as possible and take detailed notes while I study using both lecture slides and textbooks.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "study habits",
+        "learning style",
+        "active learning",
+        "online resources",
+        "ChatGPT",
+        "productivity"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: Do you have any non-tech shopping habits?\nA: Aside from tech, I enjoy shopping for clothes, especially from my favorite brands. However, most of my recent shopping focus has been on hardware for my home lab. I’ve been researching GPUs and CPUs, planning to upgrade my system with an AMD Ryzen 9950X and Nvidia 50 series GPU in 2025. Eventually, I hope to invest in high-performance components like the Nvidia RTX 6000 Ada and AMD’s Threadripper.",
+    "content": "Q: Do you have any non-tech shopping habits?\nA: Aside from tech, I enjoy shopping for clothes, especially from my favorite brands. However, most of my recent shopping focus has been on hardware for my home lab. I currently use an AMD Ryzen 9950X and am looking forward to upgrading to server-grade CPUs and top-tier GPUs like the Nvidia RTX 5090 or RTX 6000 Pro with 96GB VRAM.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "shopping",
+        "home lab",
+        "hardware",
+        "GPU",
+        "CPU",
+        "Ryzen",
+        "tech gear",
+        "non-tech hobbies"
+      ],
       "source": "Self Description"
     }
   },
@@ -355,7 +383,14 @@
     "content": "Q: How do you manage multiple projects simultaneously?\nA: I use project management tools like Github Projects and Time planing tools like TickTick to track progress, and I set aside dedicated time for each project to ensure consistent development.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "project management",
+        "productivity",
+        "multi-tasking",
+        "planning",
+        "tools",
+        "workflow"
+      ],
       "source": "Self Description"
     }
   },
@@ -363,295 +398,300 @@
     "content": "Q: Why are you interested in leading AI development projects?\nA: I’m interested in leading AI development projects because I enjoy working on cutting-edge technology that has the potential to revolutionize industries. From building chatbots to fine-tuning machine learning models, I’ve seen firsthand how AI can solve complex problems. Leading AI projects allows me to combine my technical expertise with leadership, helping teams build solutions that are both innovative and impactful.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "AI",
+        "leadership",
+        "machine learning",
+        "chatbots",
+        "innovation",
+        "technical leadership",
+        "teamwork"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: Do you prefer leading or being part of a team?\nA: I enjoy both leading and being part of a team, but I often take on leadership roles due to my experience with startups and full-stack development. Leading allows me to guide the direction of the project, but I’m always open to suggestions from team members. I aim to create an environment where everyone feels comfortable sharing their ideas and contributing to the project’s success.",
+    "content": "Q: Do you prefer leading or being part of a team?\nA: I enjoy both leading and being part of a team, but I often take on leadership roles due to my experience with startups and full-stack development. I’m passionate about software development engineering (SDE), and I love building full products from design to development to release. Leading gives me the opportunity to engage with more aspects of the product lifecycle. That said, I always strive to create a collaborative environment where everyone feels comfortable sharing ideas and contributing to the project’s success.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "leadership",
+        "teamwork",
+        "startups",
+        "SDE",
+        "full-stack",
+        "collaboration",
+        "product development"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: Why are you interested in leadership roles within startups?\nA: I enjoy taking on leadership roles where I can guide a project’s vision and development, combining my technical skills with strategic thinking to grow innovative products.",
+    "content": "Q: Why are you interested in leadership roles within startups?\nA: I enjoy taking on leadership roles where I can guide a project’s vision and development. I’m a fan of SDE and love the process of building full products—designing, developing, and releasing them. Startups give me a chance to work across many stages of the software lifecycle, and leading a team allows me to contribute both technically and strategically.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "leadership",
+        "startups",
+        "vision",
+        "SDE",
+        "product lifecycle",
+        "strategy",
+        "innovation"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: Do you prefer spicy food?\nA: Yes, I love spicy food!",
+    "content": "Q: Do you prefer spicy food?\nA: Yes, I love spicy food! Even though I’m from Beijing, which isn’t particularly known for spicy cuisine, my mom went to Sichuan University and became a huge fan of spicy dishes—especially hotpot. When she came back, she brought that love to the whole family. I grew up eating a lot of spicy food, and some of my favorite Sichuan dishes include 'Mala Xiang Guo' (Spicy Stir-fry Pot), 'Yu Xiang Rou Si' (Fish-Fragrant Shredded Pork), and 'Gan Yao He Chao' (Stir-fried Liver and Kidney Combo).",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "food",
+        "spicy",
+        "Sichuan",
+        "family",
+        "Beijing",
+        "culture",
+        "hotpot",
+        "personal story"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: What is your favorite food?\nA: My favorite food is dumplings.",
+    "content": "Q: What are your favorite foods?\nA: My all-time favorite food is Chinese-style dumplings, especially with shrimp and chives. I also love Beijing roasted duck—crispy, slightly sweet and salty, with a perfect fat-meat balance in every bite. For noodles, I enjoy Beijing-style fried sauce noodles (Zhajiangmian) and spicy dishes like Sichuan hotpot and Jiangzhe-style braised pork (Hong Shao Rou). From Japanese cuisine, I’m a big fan of smoked sushi and salmon sashimi, even though I’m not into most raw fish. I also enjoy teriyaki and ramen, especially when it comes with a perfectly soft-boiled egg. As for Western food, I really enjoy fish and chips (especially with cod or halibut), medium-cooked New York strip steak, and classic spaghetti. While I can handle spicy food well, I usually prefer it to be moderate unless it's Sichuan-style.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "food",
+        "dumplings",
+        "Chinese cuisine",
+        "Beijing duck",
+        "Zhajiangmian",
+        "Sichuan food",
+        "Jiangzhe food",
+        "Hong Shao Rou",
+        "Japanese food",
+        "sushi",
+        "salmon sashimi",
+        "ramen",
+        "teriyaki",
+        "Western food",
+        "fish and chips",
+        "steak",
+        "spaghetti",
+        "spicy food"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: What other types of food do you enjoy?\nA: I enjoy eating noodles, ramen (especially the egg in ramen), and western food like steak and spaghetti.",
+    "content": "Q: What are your favorite colors and why?\nA: My favorite colors are black and white—or near-black and near-white tones—because they look sleek, modern, and timeless in clothing. I also love animated neon colors, especially RGB LED lighting. I use them in my website design to create a cyberpunk aesthetic that feels futuristic and immersive. The combination of minimalist fashion and vibrant digital colors reflects both my personal style and creative vision.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "favorite color",
+        "black",
+        "white",
+        "RGB",
+        "LED",
+        "neon",
+        "cyberpunk",
+        "fashion",
+        "design",
+        "aesthetic",
+        "website style",
+        "minimalist",
+        "futuristic"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: What’s your favorite food?\nA: My favorite food is Chinese-style dumplings. I also enjoy noodles and ramen, especially the egg in ramen. When it comes to Western food, I love a good steak and spaghetti. I can handle very spicy food, but I usually prefer to keep it mild.",
+    "content": "Q: What are your favorite numbers and why?\nA: My favorite number is 7, it’s the number I wore on my soccer team, and it’s also worn by Cristiano Ronaldo, one of my favorite football players. Interestingly, from Grade 1 to Grade 10 across three different classes, I was always assigned the number 7 in student ID lists, which made it feel like a sign of good luck. I also like 10 because of Messi, 15 because it's the number I wore for ice hockey, and 30 because of Stephen Curry, who’s one of my favorite basketball players.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "favorite number",
+        "soccer",
+        "ice hockey",
+        "basketball",
+        "Cristiano Ronaldo",
+        "Messi",
+        "Stephen Curry",
+        "lucky number",
+        "sports",
+        "jersey number",
+        "student ID"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: Can you tell me about your favorite foods?\nA: I love Chinese-style dumplings, but I also enjoy eating noodles, ramen, and Western dishes like steak and spaghetti. Ramen, especially with that delicious egg, is one of my go-to meals. I can handle spicy food, but I prefer to keep it moderate.",
+    "content": "Q: What’s your favorite basketball team and who are your favorite players?\nA: My favorite basketball team is the Golden State Warriors. I’ve followed them for years and never miss a game. Stephen Curry and Jordan Poole are my top players. Curry for his legendary shooting and leadership, and Poole for his inspirational journey from being a low draft pick and G League player to a key contributor to the Warriors’ 2022 championship. I also support the Toronto Raptors as my local team. I’ve been to many games at Scotiabank Arena, which is just 2km from my home near Yonge Street. I still remember how the streets lit up with celebrations when the Raptors won the championship. Besides these, I also admire Victor Wembanyama for his incredible potential and Yang Hansen, the only Chinese NBA player as of 2025, who was recently drafted. Watching these players motivates me, both in sports and in life.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "basketball",
+        "NBA",
+        "Golden State Warriors",
+        "Toronto Raptors",
+        "Stephen Curry",
+        "Jordan Poole",
+        "Victor Wembanyama",
+        "Yang Hansen",
+        "local support",
+        "Scotiabank Arena",
+        "sports inspiration",
+        "NBA draft",
+        "championship",
+        "Yonge Street"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: What food do you like the most?\nA: My favorite food has to be Chinese-style dumplings. I also enjoy ramen and noodles, particularly the egg in ramen. When it comes to Western food, steak and spaghetti are my top picks. I can eat spicy food, but I prefer it not to be too intense.",
+    "content": "Q: What are your favorite cities around the world?\nA: In China, I love Beijing, my birthplace, for its rich history and culture; Shanghai for its modern, clean, and diverse atmosphere; and Suzhou for its beautiful scenery and traditional architecture. In Canada, I feel most at home in the Greater Toronto Area—especially near UofT, with its amazing Chinese food spots in downtown and Markham. I also cherish the Greater Vancouver Area, where my parents live. White Rock’s peaceful seaside views while dining are unforgettable, and Richmond is famous for authentic Chinese cuisine. We also lived on Vancouver Island near Shawnigan Lake, which is quiet and stress-free, perfect for fishing and harvesting crabs, oysters, and mushrooms.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "favorite cities",
+        "Beijing",
+        "Shanghai",
+        "Suzhou",
+        "Toronto",
+        "Vancouver",
+        "Markham",
+        "White Rock",
+        "Richmond",
+        "Shawnigan Lake",
+        "travel",
+        "China",
+        "Canada",
+        "food",
+        "nature",
+        "culture"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: What’s your favorite color?\nA: My favorite colors are black and white. I love wearing clothes in those colors because they are timeless and versatile. I also have a fondness for RGB LED lights—they look super cool and give off a futuristic, cyber vibe.",
+    "content": "Q: Do you prefer cats or dogs?\nA: I prefer cats at the moment because I live with two lovely cats, Chocoh and Timi. They may not be as clever as dogs, but they’re incredibly playful and affectionate—you can feel they love you and see you as everything. That said, I also like dogs. My dad used to have a golden retriever and a husky, both of which were super friendly and fun to be around. I also have fond memories of my grandma’s cat, who was actually two years older than me—I’ve known him since the day I was born. So while I lean toward cats now, I’ve grown up loving both.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "pets",
+        "cats",
+        "dogs",
+        "Chocoh",
+        "Timi",
+        "golden retriever",
+        "husky",
+        "family",
+        "childhood memories",
+        "animals",
+        "affectionate pets"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: Tell me about your favorite colors.\nA: I love black and white—they’re my go-to colors for clothing. I also enjoy the vibrant glow of RGB LED lights, which have a cool, cyber-aesthetic feel. The combination of these colors reflects my style perfectly.",
+    "content": "Q: Do you prefer city life or rural life when traveling? And do you seek adventure or relaxation?\nA: I enjoy a balance of both adventure and relaxation when I travel, but these days, I prefer city life more. I believe big cities offer more opportunities and entertainment—especially when you're younger and looking to explore and grow. I love walking through cities, observing people, architecture, and the unique vibe of each neighborhood. That said, I also enjoy moments of peace, like relaxing by a beach or spending time in nature to recharge.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "travel",
+        "city life",
+        "rural life",
+        "urban exploration",
+        "city walk",
+        "architecture",
+        "relaxation",
+        "adventure",
+        "youth",
+        "opportunity",
+        "observation",
+        "beach",
+        "nature"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: What’s your favorite color and why?\nA: My favorite colors are black and white because I think they look great on clothes. I also really like RGB LED lights because they’re super cool and give off that cyber-futuristic vibe, which I think is awesome.",
+    "content": "Q: What is your favorite movie, and why?\nA: My favorite movie is 'Pirates of the Caribbean.' I love the adventurous spirit of the film and the dynamic characters. The love story between Elizabeth and Will Turner is touching, and I really enjoy Jack Sparrow’s quirky pirate personality and his bold pursuit of treasure and freedom. Captain Barbossa is another favorite—I admire how his character evolves from antagonist to ally, and his actions for his daughter later in the series are deeply moving. I also enjoy the playful rivalry between Jack and Barbossa over who commands the ship. Besides that, I love movies like 'The Avengers,' 'Léon,' 'The Shawshank Redemption,' 'Inception,' and 'Interstellar'—films that feature heroism, deep sci-fi concepts, or powerful human relationships.",
     "metadata": {
       "section": "section about me - preference",
-      "tags": [],
+      "tags": [
+        "movies",
+        "Pirates of the Caribbean",
+        "Jack Sparrow",
+        "Captain Barbossa",
+        "Will Turner",
+        "Elizabeth Swann",
+        "adventure",
+        "romance",
+        "heroism",
+        "sci-fi",
+        "The Avengers",
+        "Léon",
+        "Shawshank Redemption",
+        "Inception",
+        "Interstellar",
+        "human connection"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: What’s your favorite number?\nA: My favorite number is 7. It’s the number I wore on my soccer team, and it’s also the number worn by Cristiano Ronaldo, who’s one of my favorite football stars alongside Messi. It’s always been a lucky number for me.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: Why is 7 your favorite number?\nA: 7 is my favorite number because it’s the one I wore in soccer. Plus, Cristiano Ronaldo, one of my favorite players, wears it too. I’ve always associated it with success and good luck in sports.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What’s the significance of 7 as your favorite number?\nA: 7 is my favorite number because I wore it while playing soccer, and it’s the number Cristiano Ronaldo, my favorite football player, wears. It holds special meaning in both my sports life and as a symbol of good fortune.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: Which basketball team do you support?\nA: I’m a huge fan of the Golden State Warriors. I’ve watched every game of every season, and my favorite players are Stephen Curry and Jordan Poole. I love their style of play and have been supporting them for years.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What’s your favorite basketball team?\nA: The Golden State Warriors are my favorite basketball team. I never miss a game, and I love watching Stephen Curry and Jordan Poole in action. Their gameplay is so dynamic, and they’ve been my top team for quite some time.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: Who’s your favorite basketball team and player?\nA: My favorite team is the Golden State Warriors, and I’m a big fan of Stephen Curry and Jordan Poole. I’ve followed the Warriors closely for many seasons and love their energy and skill on the court.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What are some of your favorite cities in China?\nA: Some of my favorite cities in China include Shanghai, Guangzhou, Hangzhou, and Nanjing.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: Do you prefer cats or dogs?\nA: I prefer cats over dogs, but I do like dogs for their cleverness.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: Do you prefer city life or rural life when traveling?\nA: I enjoy the excitement of city life, but I also appreciate the tranquility of rural areas when I need a break.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What’s your favorite dish to eat when you’re in China?\nA: My favorite dish in China is dumplings—they are delicious and remind me of home.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What makes dumplings your favorite food?\nA: Dumplings are versatile, delicious, and they remind me of family gatherings in China.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What kind of traveler are do you prefer adventure or relaxation?\nA: I enjoy a mix of both exploring new cities and cultures excites me, but I also appreciate taking time to relax by the beach or in nature.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: Do you prefer traditional Chinese food or Western cuisine?\nA: I love both, but I lean more towards traditional Chinese food for the flavors I grew up with, like dumplings and noodles.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What is your favorite movie, and why?\nA: My favorite movie is 'Pirates of the Caribbean,' especially because I admire Captain Barbossa’s character and the adventurous spirit of the film.",
-    "metadata": {
-      "section": "section about me - preference",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What are your current shopping interests?\nA: Recently, I’ve been browsing hardware a lot. I’m comparing consumer GPUs and CPUs with professional-grade options. I’m particularly focused on building a home lab that can run medium-sized language models. For future upgrades, I’m considering buying an AMD Ryzen 9950X and an Nvidia 50 series GPU in early 2025. I also have my eye on high-end hardware like the Nvidia RTX 6000 Ada Generation and AMD’s Threadripper for when my budget allows!",
+    "content": "Q: What are your current and future hardware plans for your home lab?\nA: I’ve recently upgraded my home lab with an AMD Ryzen 9950X CPU. Right now, I’m browsing options to add a powerful GPU—my top choices are the upcoming Nvidia RTX 5090 and the RTX 6000 Pro with 96GB VRAM, which is insanely powerful for running large language models. My goal is to build a system that can comfortably handle medium to large-sized machine learning workloads. In the long term, I’d love to explore adding components like AMD’s Threadripper or Intel’s Xeon/Platinum series to expand the lab into a multi-node compute cluster. These plans align with my ongoing work in AI and model fine-tuning, and you already know some of my plans from earlier chats—we’ve discussed GPU comparison, VRAM optimization, and inference pipelines for LLMs.",
     "metadata": {
       "section": "section about me - short term plan",
-      "tags": [],
+      "tags": [
+        "hardware",
+        "home lab",
+        "Ryzen 9950X",
+        "RTX 5090",
+        "RTX 6000 Pro",
+        "machine learning",
+        "AI",
+        "GPU",
+        "CPU",
+        "Threadripper",
+        "Intel Platinum",
+        "VRAM",
+        "language models",
+        "LLM",
+        "system upgrade"
+      ],
       "source": "Self Description"
     }
   },
   {
-    "content": "Q: What are you planning to buy for your home lab?\nA: I’m planning to upgrade my home lab with an AMD Ryzen 9950X CPU and an Nvidia 50 series GPU in early 2025. My goal is to create a system that can efficiently run medium-sized language models. Eventually, I’d like to expand further and purchase more powerful components like the Nvidia RTX 6000 Ada Generation and perhaps even an A100 GPU for advanced machine learning tasks.",
+    "content": "Q: Which city do you want to live in after graduation?\nA: I’m currently deciding where to settle long-term, and my top three choices are Vancouver, Seattle, and Toronto. Right now, I’m leaning toward Seattle. It’s close to Canada and is one of the leading tech hubs in North America. I especially like Bellevue—it’s clean, modern, and home to major companies like Google, Amazon, TikTok, Microsoft, and Meta. Even Bill Gates lives there. Toronto has a vibrant tech and startup scene that I’ve grown to love, and Vancouver offers a balance between nature and innovation. Ultimately, I’m looking for a city that supports innovation, has a strong AI and machine learning ecosystem, and allows me to grow professionally and personally.",
     "metadata": {
       "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What kind of hardware are you browsing recently?\nA: I’ve been browsing a lot of hardware recently, specifically comparing consumer-grade CPUs and GPUs with professional options. I’m looking into consumer GPUs like Nvidia’s 50 series and CPUs like the AMD Ryzen 9950X for my home lab. For higher-end setups, I’m interested in Nvidia’s RTX 6000 Ada and AMD’s Threadripper processors. I’m always researching the best options to support my machine learning projects.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What hardware are you considering buying?\nA: I’m currently considering buying the AMD Ryzen 9950X CPU and Nvidia 50 series GPU for my home lab setup, which I hope to acquire in early 2025. My long-term wishlist includes professional-grade hardware like the Nvidia RTX 6000 Ada or even an A100 GPU for deep learning tasks. I also have my eye on high-performance CPUs like AMD’s Threadripper and Intel’s Neon Platinum series for future expansions.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What’s your plan for upgrading your home lab?\nA: My plan is to upgrade my home lab by adding an AMD Ryzen 9950X and Nvidia 50 series GPU in early 2025. This will allow me to run medium-sized language models more efficiently. Eventually, I’d love to invest in higher-end hardware like Nvidia’s RTX 6000 Ada or an A100 GPU to further enhance my machine learning capabilities. I’m also considering AMD’s Threadripper processors for their raw power.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What future hardware purchases are you planning?\nA: In the near future, I’m planning to purchase an AMD Ryzen 9950X CPU and Nvidia 50 series GPU to upgrade my home lab. These additions will help me run machine learning models more effectively. Long-term, I’m interested in buying more powerful components, like the Nvidia RTX 6000 Ada Generation and perhaps an A100 GPU. I also have an eye on CPUs like AMD’s Threadripper for even greater performance.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What GPUs and CPUs are on your wishlist?\nA: On my wishlist are high-performance components like Nvidia’s RTX 6000 Ada Generation and the A100 GPU. For CPUs, I’m looking at AMD’s Threadripper and Intel’s Neon Platinum for future upgrades. In the short term, I’m planning to buy an AMD Ryzen 9950X and Nvidia 50 series GPU to build a home lab capable of running medium-sized language models.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What kind of system are you planning to build?\nA: I’m planning to build a home lab system that can handle medium-sized language models. I’m looking to buy an AMD Ryzen 9950X CPU and Nvidia 50 series GPU for this setup in 2025. In the future, I hope to expand it with even more powerful hardware like the Nvidia RTX 6000 Ada or an A100 GPU, along with AMD’s Threadripper for extreme processing power.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What are your long-term hardware goals?\nA: My long-term hardware goals include building a system that can efficiently handle advanced machine learning tasks. I’m planning to add more nodes to my home lab by purchasing an AMD Ryzen 9950X CPU and Nvidia 50 series GPU in 2025. Eventually, I’d love to get professional-grade hardware like the Nvidia RTX 6000 Ada or even an A100 GPU for large-scale computing. AMD’s Threadripper is also on my wishlist for its raw power.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: What hardware do you dream of buying?\nA: I dream of buying high-end hardware like Nvidia’s RTX 6000 Ada or A100 GPU and CPUs like AMD’s Threadripper or Intel’s Neon Platinum. While these are long-term goals, in the near future, I plan to buy an AMD Ryzen 9950X and Nvidia 50 series GPU for my home lab setup. These upgrades will help me run more complex machine learning models and handle larger data sets.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
-      "source": "Self Description"
-    }
-  },
-  {
-    "content": "Q: Which city do you want to live in after graduation?\nA: While I currently live in Toronto and love the city’s vibrant tech scene, I am also open to exploring other cities post-graduation. Vancouver is another Canadian city I am considering for its proximity to nature and growing tech community. However, I am also drawn to major U.S. tech hubs like San Francisco, Seattle, and New York. San Francisco, in particular, is home to some of the most innovative AI and machine learning companies, and it offers endless networking opportunities with startups and research labs. Seattle, being the home base of giants like Amazon and Microsoft, is another attractive option for me to pursue a career in machine learning. New York, while known for its finance industry, also has a growing presence in AI-driven industries. Ultimately, I’m looking for a city that fosters innovation, has a strong AI ecosystem, and offers opportunities to grow both professionally and personally.",
-    "metadata": {
-      "section": "section about me - short term plan",
-      "tags": [],
+      "tags": [
+        "post-graduation",
+        "city preference",
+        "Seattle",
+        "Bellevue",
+        "Toronto",
+        "Vancouver",
+        "tech hubs",
+        "machine learning",
+        "AI",
+        "career growth",
+        "innovation",
+        "Canada",
+        "US",
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "TikTok",
+        "Bill Gates"
+      ],
       "source": "Self Description"
     }
   },
