@@ -2,3 +2,4 @@ venv/
 serverlite/food101/models/
 uploads/
 *__pycache__/
+*.env

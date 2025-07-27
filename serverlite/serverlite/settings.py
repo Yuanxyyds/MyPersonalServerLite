@@ -11,6 +11,12 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -48,6 +54,7 @@ INSTALLED_APPS = [
     "server_stats",
     "food101",
     "landsink",
+    "stevenai"
 ]
 
 MIDDLEWARE = [
@@ -132,3 +139,11 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+QA_INDEX_PATH = "/root/MyPersonalServerLite/serverlite/stevenai/models/qa_index.faiss"
+QA_META_PATH = "/root/MyPersonalServerLite/serverlite/stevenai/models/qa_metadata.pkl"
+QA_DATA_PATH = "/root/MyPersonalServerLite/serverlite/stevenai/data/rag_qa.json"
+
+DOCS_INDEX_PATH = "/root/MyPersonalServerLite/serverlite/stevenai/models/docs_index.faiss"
+DOCS_META_PATH = "/root/MyPersonalServerLite/serverlite/stevenai/models/docs_metadata.pkl"
+DOCS_DATA_PATH = "/root/MyPersonalServerLite/serverlite/stevenai/data/rag_document.json"
