@@ -6,6 +6,13 @@
             "tags": [
                 "summary"
             ],
+            "questions": [
+                "What’s your name and where are you from?",
+                "Can you tell me a bit about yourself?",
+                "What do you do for work and study?",
+                "What inspired you to go by Steven?",
+                "Where do you currently live?"
+            ],
             "source": "Docs"
         }
     },
@@ -15,6 +22,14 @@
             "section": "section about me",
             "tags": [
                 "summary"
+            ],
+            "questions": [
+                "Who do you live with?",
+                "Do you have any pets?",
+                "What are some of your hobbies?",
+                "What’s your name and where are you from?",
+                "Can you tell me a bit about yourself?",
+                "What do you do for work and study?"
             ],
             "source": "Docs"
         }
@@ -27,6 +42,12 @@
                 "hobby",
                 "sports and music"
             ],
+            "questions": [
+                "What kind of music do you like?",
+                "What sports do you enjoy playing?",
+                "How long have you been playing piano?",
+                "What’s your favourite movies?"
+            ],
             "source": "Docs"
         }
     },
@@ -37,6 +58,13 @@
             "tags": [
                 "hobby",
                 "gaming technology and rest"
+            ],
+            "questions": [
+                "What games do you enjoy playing?",
+                "Are you more of a night owl or early bird?",
+                "What do you do in your free time?",
+                "What’s your favorite console or game right now?",
+                "How much sleep do you usually get?"
             ],
             "source": "Docs"
         }
@@ -49,6 +77,13 @@
                 "preference",
                 "overview"
             ],
+            "questions": [
+                "What’s a quote that inspires you?",
+                "How would you describe your personality?",
+                "Do you enjoy leading teams or working independently?",
+                "What motivates you to keep solving problems?",
+                "How do you approach your work and life values?"
+            ],
             "source": "Docs"
         }
     },
@@ -59,6 +94,13 @@
             "tags": [
                 "preference",
                 "learning productivity and color"
+            ],
+            "questions": [
+                "How do you like to learn new things?",
+                "Are you more of a visual or hands-on learner?",
+                "What kind of design style do you like?",
+                "Do you have a favorite color scheme or fashion aesthetic?",
+                "What’s something unique about your workspace setup?"
             ],
             "source": "Docs"
         }
@@ -72,6 +114,13 @@
                 "food and number",
                 "NBA basketball"
             ],
+            "questions": [
+                "What’s your favorite kind of food?",
+                "Are you more into spicy or mild dishes?",
+                "Do you have a favorite number or lucky number?",
+                "Which NBA teams or players do you support?",
+                "Do you enjoy cooking or just eating great food?"
+            ],
             "source": "Docs"
         }
     },
@@ -82,6 +131,13 @@
             "tags": [
                 "preference",
                 "lifestyle and entertainment"
+            ],
+            "questions": [
+                "Do you prefer city life or nature getaways?",
+                "What are some of your favorite cities?",
+                "Are you a cat person or a dog person?",
+                "What’s your favorite movie or movie genre?",
+                "Which characters or stories really resonate with you?"
             ],
             "source": "Docs"
         }
@@ -94,6 +150,13 @@
                 "habits",
                 "workstyle"
             ],
+            "questions": [
+                "How do you usually stay organized and on track?",
+                "What tools do you use to plan your day?",
+                "Would you say you’re more of an early starter or a last-minute type?",
+                "How do you like to learn new things?",
+                "What’s your leadership style like?"
+            ],
             "source": "Docs"
         }
     },
@@ -104,6 +167,13 @@
             "tags": [
                 "habits",
                 "workstyle"
+            ],
+            "questions": [
+                "How do you stay productive outside of work?",
+                "What do you like to do on your breaks or holidays?",
+                "How do you maintain work-life balance?",
+                "Do you consider yourself more spontaneous or structured?",
+                "What helps you stay calm under pressure?"
             ],
             "source": "Docs"
         }
@@ -116,6 +186,13 @@
                 "short term plan",
                 "Hardware and Geograpy"
             ],
+            "questions": [
+                "Where are you thinking of moving after graduation?",
+                "What kind of places do you enjoy living in?",
+                "Do you like building computers or upgrading tech?",
+                "Why are you interested in cities like Seattle or Vancouver?",
+                "What are you currently working on in your home lab?"
+            ],
             "source": "Docs"
         }
     },
@@ -126,6 +203,13 @@
             "tags": [
                 "short term plan",
                 "industry"
+            ],
+            "questions": [
+                "What’s your vision for the future of AI?",
+                "How do you think AI should evolve in the next few years?",
+                "Do you prefer working on big models or efficient ones?",
+                "What excites you most about AI innovation?",
+                "How do you want your work to make an impact?"
             ],
             "source": "Docs"
         }
@@ -138,6 +222,13 @@
                 "belief",
                 "overview"
             ],
+            "questions": [
+                "What do you believe makes a good startup founder?",
+                "What motivates you to keep building new things?",
+                "How do your beliefs shape your work?",
+                "Why are you passionate about startups?",
+                "What kind of future do you see for AI?"
+            ],
             "source": "Docs"
         }
     },
@@ -148,6 +239,13 @@
             "tags": [
                 "belief",
                 "mentor and advice"
+            ],
+            "questions": [
+                "What’s your biggest advice to students or junior developers?",
+                "What do you think makes someone a good leader?",
+                "How do you define success in your projects?",
+                "Do you enjoy mentoring others?",
+                "What keeps you motivated when you're juggling so many things?"
             ],
             "source": "Docs"
         }
@@ -160,6 +258,13 @@
                 "belief",
                 "worklife balance"
             ],
+            "questions": [
+                "What does work-life balance mean to you?",
+                "How has growing up in both China and Canada shaped you?",
+                "What kind of things help you recharge?",
+                "What do you enjoy most about exploring new places?",
+                "How do you stay grounded when life gets busy?"
+            ],
             "source": "Docs"
         }
     },
@@ -170,6 +275,13 @@
             "tags": [
                 "life",
                 "Vocation and travel"
+            ],
+            "questions": [
+                "Do you enjoy traveling? What kind of places do you like most?",
+                "What’s been one of your most memorable trips?",
+                "Do you have any yearly traditions with your family?",
+                "Which city in China left the biggest impression on you?",
+                "How does travel help you reflect or recharge?"
             ],
             "source": "Docs"
         }
@@ -182,6 +294,13 @@
                 "life",
                 "photography"
             ],
+            "questions": [
+                "How did you get into photography?",
+                "What kind of moments do you like to capture?",
+                "What camera gear do you use when you travel?",
+                "Do you find photography relaxing or creative—or both?",
+                "How do you make time for hobbies during the workweek?"
+            ],
             "source": "Docs"
         }
     },
@@ -192,6 +311,13 @@
             "tags": [
                 "life",
                 "city"
+            ],
+            "questions": [
+                "Which cities would you like to live and work in?",
+                "Why are places like Seattle and Toronto special to you?",
+                "What kind of environment do you find inspiring?",
+                "Do you prefer big cities or smaller towns?",
+                "What makes a city feel like home for you?"
             ],
             "source": "Docs"
         }
@@ -204,6 +330,13 @@
                 "life",
                 "Beijing"
             ],
+            "questions": [
+                "Where did you grow up?",
+                "What are some of your favorite memories from Beijing?",
+                "Which neighborhood felt most like home to you?",
+                "What local food do you miss the most?",
+                "How did your childhood shape who you are today?"
+            ],
             "source": "Docs"
         }
     },
@@ -214,6 +347,13 @@
             "tags": [
                 "travel",
                 "overview"
+            ],
+            "questions": [
+                "What are some of your favorite places you’ve traveled to?",
+                "Which trip stands out the most to you?",
+                "Do you prefer city travel or nature escapes?",
+                "What’s your most relaxing vacation so far?",
+                "How has travel influenced your perspective?"
             ],
             "source": "Docs"
         }
@@ -226,6 +366,13 @@
                 "travel",
                 "photography"
             ],
+            "questions": [
+                "What got you into photography?",
+                "What kind of photos do you enjoy taking the most?",
+                "Do you travel with a specific camera setup?",
+                "What’s your dream travel destination?",
+                "Why is photography meaningful to you?"
+            ],
             "source": "Docs"
         }
     },
@@ -236,6 +383,13 @@
             "tags": [
                 "career",
                 "overview"
+            ],
+            "questions": [
+                "What got you interested in computer science and AI?",
+                "How did your university studies shape your career?",
+                "What’s one project you’re especially proud of?",
+                "Do you enjoy building tools that help people?",
+                "How do you stay motivated in such a fast-moving field?"
             ],
             "source": "Docs"
         }
@@ -248,6 +402,13 @@
                 "career",
                 "future plan"
             ],
+            "questions": [
+                "What’s your dream job in the future?",
+                "Would you rather teach or build your own company?",
+                "What kind of impact do you want to make in your career?",
+                "Why does mentorship matter to you?",
+                "Do you see yourself staying in AI long-term?"
+            ],
             "source": "Docs"
         }
     },
@@ -258,6 +419,13 @@
             "tags": [
                 "career",
                 "entrepreneurship and leadership"
+            ],
+            "questions": [
+                "What inspired you to become an entrepreneur?",
+                "What kind of AI projects are you most passionate about?",
+                "Do you enjoy leading teams or working solo?",
+                "How do you want your work to impact others?",
+                "What kind of problems do you hope to solve with AI?"
             ],
             "source": "Docs"
         }
@@ -270,6 +438,13 @@
                 "career",
                 "future jobs or plans"
             ],
+            "questions": [
+                "Which companies would you love to work for?",
+                "What makes Toronto, Vancouver, or Seattle appealing to you?",
+                "Do you prefer working in industry or academia?",
+                "What kind of team or company culture do you enjoy?",
+                "What do you hope to achieve in your future career?"
+            ],
             "source": "Docs"
         }
     },
@@ -279,6 +454,13 @@
             "section": "section about me",
             "tags": [
                 "contact"
+            ],
+            "questions": [
+                "What’s the best way to contact you?",
+                "Are you open to new connections or collaborations?",
+                "Where can I find your technical projects?",
+                "Can I reach out to you on LinkedIn or GitHub?",
+                "Do you enjoy meeting new people through your work?"
             ],
             "source": "Docs"
         }
@@ -291,6 +473,13 @@
                 "past education",
                 "Elementary School or Primary School in Beijing China"
             ],
+            "questions": [
+                "Where did your education journey begin?",
+                "Did you have a favorite subject growing up?",
+                "What kind of student were you in elementary school?",
+                "How did your early education influence your interests?",
+                "Do you still remember any teachers who inspired you?"
+            ],
             "source": "Docs"
         }
     },
@@ -301,6 +490,13 @@
             "tags": [
                 "past education",
                 "Transition from Beijing China to Canada"
+            ],
+            "questions": [
+                "When did you move to Canada?",
+                "What was the transition like between Beijing and Canada?",
+                "Where did you go to high school and university?",
+                "Did you enjoy your time at the University of Toronto?",
+                "What’s one academic achievement you’re proud of?"
             ],
             "source": "Docs"
         }
@@ -313,6 +509,13 @@
                 "past education",
                 "undergraduate"
             ],
+            "questions": [
+                "What was your undergraduate experience like?",
+                "What kinds of projects did you work on in university?",
+                "Were you involved in any clubs or leadership roles?",
+                "What’s one highlight from your time at U of T?",
+                "Did any professors or mentors have a big impact on you?"
+            ],
             "source": "Docs"
         }
     },
@@ -324,6 +527,13 @@
                 "past education",
                 "courses"
             ],
+            "questions": [
+                "What were your favorite university courses?",
+                "How did your coursework relate to your projects?",
+                "Did any subjects surprise you or become unexpected favorites?",
+                "How did your studies support your outside work?",
+                "What’s a course that helped shape your interests?"
+            ],
             "source": "Docs"
         }
     },
@@ -333,6 +543,13 @@
             "section": "section about education",
             "tags": [
                 "Master application"
+            ],
+            "questions": [
+                "Where did you apply for your master’s program?",
+                "What made you choose UPenn for graduate studies?",
+                "Was it a tough decision to stay in Canada or go to the U.S.?",
+                "What do you enjoy most about your program at UPenn?",
+                "What were you looking for in a master’s program?"
             ],
             "source": "Docs"
         }
@@ -345,6 +562,13 @@
                 "Master application",
                 "PhD plan"
             ],
+            "questions": [
+                "Do you plan to pursue a PhD in the future?",
+                "Which schools are on your PhD dream list?",
+                "What draws you toward continuing in academia?",
+                "Did the application process change your perspective?",
+                "What are you hoping to explore in your research?"
+            ],
             "source": "Docs"
         }
     },
@@ -353,7 +577,14 @@
         "metadata": {
             "section": "section about education",
             "tags": [
-                "MIT thoughts"
+                "MIT Stanford UofT thoughts"
+            ],
+            "questions": [
+                "Why is MIT one of your dream schools?",
+                "What excites you about Stanford’s environment?",
+                "How does U of T compare for doctoral research?",
+                "Would you prefer staying in Canada or moving to the U.S.?",
+                "What kind of academic environment motivates you most?"
             ],
             "source": "Docs"
         }
@@ -363,7 +594,14 @@
         "metadata": {
             "section": "section about education",
             "tags": [
-                "Havard thoughts"
+                "Havard Princeton Upenn thoughts"
+            ],
+            "questions": [
+                "What interests you about Harvard’s AI and ethics work?",
+                "Why does Princeton’s approach appeal to you?",
+                "What areas are you focusing on during your master’s?",
+                "Do you enjoy blending research with real-world impact?",
+                "What’s your dream outcome for your graduate journey?"
             ],
             "source": "Docs"
         }
@@ -376,6 +614,13 @@
                 "favourite teacher",
                 "Mr. Zhang"
             ],
+            "questions": [
+                "Who was your favorite teacher growing up?",
+                "What made Mr. Zhang so special to you?",
+                "Do you still keep in touch with any of your teachers?",
+                "Have you ever thought about becoming a teacher?",
+                "How did Mr. Zhang influence your learning or values?"
+            ],
             "source": "Docs"
         }
     },
@@ -386,18 +631,32 @@
             "tags": [
                 "mobile app development",
                 "UI/UX design",
-                "@eb development"
+                "web development"
+            ],
+            "questions": [
+                "What kind of apps do you enjoy building?",
+                "Which tools do you usually use for mobile or web development?",
+                "Do you prefer working on frontend or backend?",
+                "How do you usually design your user interfaces?",
+                "What’s your go-to framework for web projects?"
             ],
             "source": "Docs"
         }
     },
     {
-        "content": "On the backend, I frequently work with Firebase—my preferred platform due to its seamless integration of Firestore and Cloud Functions. I have leveraged Firebase extensively in projects like Campus Eats, LockIn, and DTC. I also use Django and Flask for building scalable APIs and rely on cloud infrastructure tools like AWS and Google Cloud Platform for deployment. In machine learning, I specialize in both computer vision and NLP using TensorFlow and PyTorch. My experience includes techniques like hyperparameter tuning, data augmentation, and regularization to improve model performance. I have built and fine-tuned models such as ResNet, Inception, and LLaMA 3.2, and use Python and R for data analysis and visualization.",
+        "content": "On the backend, I frequently work with Firebase—my preferred platform for its seamless integration of Firestore and Cloud Functions—and have used it extensively in projects like Campus Eats, LockIn, and DTC. I also build scalable APIs with Django and Flask, and deploy them using cloud infrastructure tools such as AWS and Google Cloud Platform. In machine learning, I specialize in both computer vision and NLP using TensorFlow and PyTorch. My workflow involves meticulous data preparation, model training, and performance optimization through techniques like hyperparameter tuning, data augmentation, and regularization. I have built and fine-tuned models including ResNet, Inception, and LLaMA 3.2, and conduct rigorous evaluation using metrics such as accuracy, precision, and recall to ensure generalizability. For data analysis and visualization, I use both Python and R.",
         "metadata": {
             "section": "section about skills",
             "tags": [
                 "backend",
                 "Machine Learning"
+            ],
+            "questions": [
+                "What’s your favorite backend tool to work with?",
+                "How do you usually approach machine learning projects?",
+                "Do you enjoy working more with data or models?",
+                "Which platforms do you use for cloud deployment?",
+                "What kind of problems have you solved with Machine Learning ML so far?"
             ],
             "source": "Docs"
         }
@@ -410,6 +669,13 @@
                 "data engineering",
                 "preferred tech stack"
             ],
+            "questions": [
+                "What’s your go-to tech stack?",
+                "Do you work more with SQL or NoSQL databases?",
+                "How do you manage data processing in your projects?",
+                "What do you like about combining mobile and backend development?",
+                "Which languages or frameworks do you use most often?"
+            ],
             "source": "Docs"
         }
     },
@@ -420,6 +686,11 @@
             "tags": [
                 "Businese",
                 "Language"
+            ],
+            "questions": [
+                "What kind of business experience do you have?",
+                "Which languages do you speak fluently?",
+                "Are you planning to learn any new languages?"
             ],
             "source": "Docs"
         }
@@ -432,27 +703,42 @@
                 "Startups",
                 "Leadership"
             ],
-            "source": "Docs"
-        }
-    },
-    {
-        "content": "I maintain a diverse portfolio across software engineering, machine learning, and research. Notable AI projects include StevenAI, a personalized AI chatbot fine-tuned from the 3-billion-parameter LLaMA 3.2 model using LoRA and Retrieval-Augmented Generation (RAG), and MentorAI, which leverages mentorship videos on YouTube to generate tailored advice through large language models trained on ACL mentorship talk transcripts. Additionally, my Food101 project applied deep neural networks such as ResNet, Inception, and VGG for food category classification. I also designed and deployed an AI assistant built on Raspberry Pi 5, featuring voice interaction powered by custom TTS models and smart home integration through the Home Assistant API, complemented by a real-time GUI developed with Kivy for voice feedback, touch interaction, and device control. My structured machine learning workflow involves meticulous data preparation, model training using TensorFlow or PyTorch, hyperparameter tuning (learning rate, batch size, optimizer), performance optimization, and rigorous evaluation with metrics like accuracy, precision, and recall, culminating in comprehensive fine-tuning and generalization testing.",
-        "metadata": {
-            "section": "section about experience",
-            "tags": [
-                "Personal Projects",
-                "AI and Machine Learning"
+            "questions": [
+                "What inspired you to start Campus Eats and LockIn?",
+                "How did you manage a team of over 20 people?",
+                "What are some of your startup or leadership experience?",
+                "Do you enjoy pitching and public speaking?",
+                "What’s one thing you learned about leading a startup?"
             ],
             "source": "Docs"
         }
     },
     {
-        "content": "I have contributed significantly to research and industry. At FarDataLab, I participated in hardware-accelerated database research and developed novel methods to optimize data management systems by leveraging cloud hardware accelerators such as GPUs and FPGAs. This work addresses challenges posed by the end of Dennard scaling and the slowing of Moore's law, focusing on improving efficiency and scalability of data processing tasks while reducing operational costs at scale. At Jinesis Lab, I contributed to MentorAI, a research project using YouTube video links and user data to generate personalized mentorship advice by analyzing transcripts with large language models and NLP techniques. I also contributed to Johnson Controls’ home security mobile and cloud applications, integrating Google Cloud Geolocation and ChatGPT-3 for conversational device control. My full-stack expertise is showcased through my personal website (https://liustev6.ca), built from scratch with React, Bootstrap, and Django—previously using Next.js and Tailwind CSS—and self-hosted on a Proxmox server. The site features an interactive 3D-rendered server room crafted with Blender and Three.js, enabling dynamic exploration of my technical background and projects.",
+        "content": "I maintain a diverse portfolio across software engineering. Notable AI projects include StevenAI, a personalized AI chatbot fine-tuned from the 3-billion-parameter LLaMA 3.2 model using LoRA and Retrieval-Augmented Generation (RAG); MentorAI, which leverages mentorship videos on YouTube to generate tailored advice through large language models trained on ACL mentorship talk transcripts; AISIM, a 7-player AI social deduction simulation that studies LLM behavior through dynamic character dialogue, memory tracking, and reasoning via a Godot-powered interface; and Food101, which applied deep neural networks such as ResNet, Inception, and VGG for food category classification. I also designed and deployed an AI assistant on Raspberry Pi 5, featuring voice interaction with custom TTS models and seamless smart home integration via the Home Assistant API, supporting real-time voice feedback, touch-based interaction, and full device control. These projects are showcased through my personal website (https://liustev6.ca), built from scratch with React, Bootstrap, and Django. The site also features an interactive 3D-rendered server room crafted with Blender and Three.js, enabling dynamic exploration of my technical background and projects. ",
+        "metadata": {
+            "section": "section about experience",
+            "tags": [
+                "Personal Projects"
+            ],
+            "questions": [
+                "Can you tell me about some personal AI projects you've built?",
+                "Which project are you most proud of so far?",
+                "What does your personal website showcase?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I have contributed significantly to research and industry. At FarDataLab, I participated in hardware-accelerated database research and developed novel methods to optimize data management systems by leveraging cloud hardware accelerators such as GPUs and FPGAs. This work addresses challenges posed by the end of Dennard scaling and the slowing of Moore's law, focusing on improving efficiency and scalability of data processing tasks while reducing operational costs at scale. At Jinesis Lab, I contributed to MentorAI, a research project using YouTube video links and user data to generate personalized mentorship advice by analyzing transcripts with large language models and NLP techniques. I also contributed to Johnson Controls’ home security mobile and cloud applications, integrating Google Cloud Geolocation and ChatGPT-3 for conversational device control. ",
         "metadata": {
             "section": "section about experience",
             "tags": [
                 "Research",
                 "Industry"
+            ],
+            "questions": [
+                "What kind of research have you done in AI or systems?",
+                "Have you worked on any projects in industry?"
             ],
             "source": "Docs"
         }
@@ -465,6 +751,11 @@
                 "Backend",
                 "Mobile Development"
             ],
+            "questions": [
+                "What kind of backend tools do you usually use?",
+                "What kind of mobile development tools do you usually use?",
+                "How do you decide which tools to use for each project?"
+            ],
             "source": "Docs"
         }
     },
@@ -475,6 +766,12 @@
             "tags": [
                 "Continuous Learning",
                 "New Tech"
+            ],
+            "questions": [
+                "How do you keep learning new tools and techniques?",
+                "What motivates you to keep experimenting with new tech?",
+                "How do you apply what you learn from school to your projects?",
+                "What tools are you exploring right now?"
             ],
             "source": "Docs"
         }
@@ -487,6 +784,13 @@
                 "UI/UX Design",
                 "Feedback"
             ],
+            "questions": [
+                "How do you approach UI and UX design?",
+                "What role does feedback play in your projects?",
+                "Do you use tools like Figma for prototyping?",
+                "How do you make sure your apps are user-friendly?",
+                "What’s your process for turning user input into action?"
+            ],
             "source": "Docs"
         }
     },
@@ -498,6 +802,12 @@
                 "Security",
                 "Scalability"
             ],
+            "questions": [
+                "How do you keep your projects secure?",
+                "Do you use multi-factor authentication or encryption?",
+                "Have you ever integrated payments into an app?",
+                "How do you make sure your projects scale smoothly?"
+            ],
             "source": "Docs"
         }
     },
@@ -508,6 +818,775 @@
             "tags": [
                 "Version Control",
                 "Git"
+            ],
+            "questions": [
+                "How do you usually manage your codebase?",
+                "Are you comfortable working with Git and GitHub?",
+                "Do you follow any version control best practices?",
+                "What’s your typical workflow with pull requests?",
+                "How do you organize features or releases in Git?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Campus Eats began as a CSC207 final project at the University of Toronto, originally conceived as a food truck ordering system built using Java and an Android frontend with a command-line interface. Although only partially implemented, this initial version laid the foundation for what would evolve into a comprehensive campus dining platform. I subsequently rebuilt Campus Eats from the ground up using Flutter and Firebase, adding extensive functionalities such as account management, shopping cart, detailed menu browsing, driver-side interfaces, and exclusive student discounts. The updated version features a redesigned UI, faster backend performance, and dedicated interfaces tailored separately for users, restaurant owners, and drivers, offering a streamlined, efficient, and affordable solution for campus dining.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "History",
+                "Improvement"
+            ],
+            "questions": [
+                "How did Campus Eats get started?",
+                "What changes did you make from the original version?",
+                "How did you improve performance and design?",
+                "What features does the current version of Campus Eats offer?",
+                "Was it hard to turn a class project into a real product?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Campus Eats addresses core issues students face with traditional food delivery apps—such as excessive wait times, high delivery fees, and limited food options. Inspired by students like Tony, a first-year student frustrated by high delivery costs and limited Asian food choices on campus, Campus Eats created the innovative Campus Grab-and-Go delivery model. This system consolidates student orders during peak hours and delivers them to central pickup locations on campus, significantly reducing costs for both students and restaurants. By offering exclusive student discounts and bulk-ordering efficiencies, Campus Eats lowers prices so students pay closer to dine-in rates rather than inflated delivery fees.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "Core features",
+                "Grab and Go"
+            ],
+            "questions": [
+                "What problem does Campus Eats solve for students?",
+                "How does the Grab-and-Go delivery system work?",
+                "What inspired you to create this model?",
+                "How does Campus Eats keep prices affordable?",
+                "What makes Campus Eats different from other delivery apps?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Restaurant owners also face challenges from existing platforms, including high commissions of up to 30% per order, which force price hikes and reduce profitability. Through extensive market research—including interviews with over 50 restaurant owners and surveys of over 500 students—I identified these critical pain points. Campus Eats resolves these by offering restaurants lower commission fees (10–15%), increased visibility to student customers, and efficient bulk ordering, enhancing profit margins without necessitating price increases.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "Restaurant Challenges",
+                "commission fees"
+            ],
+            "questions": [
+                "What issues do restaurant owners face with delivery apps?",
+                "How does Campus Eats support local restaurants?",
+                "What kind of market research did you do?",
+                "Why are lower commission fees important?",
+                "How does bulk ordering help restaurant partners?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Campus Eats provides a modern, intuitive user interface, making it easy for students to explore dining options via integrated maps and place secure orders through seamless Stripe-powered payment processing. The app ensures robust security measures, including two-factor authentication and encrypted card handling, with smooth address management facilitated by Google Cloud Maps integration. Users benefit from flexible ordering options—pickup, direct delivery, or the Campus Grab-and-Go system—with live order tracking and built-in chat functions enhancing communication between users, vendors, and drivers.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "Integration",
+                "User Features"
+            ],
+            "questions": [
+                "What features does Campus Eats offer for students?",
+                "How does the app handle payments and security?",
+                "Can users track their orders in real time?",
+                "What are the ordering options in the app?",
+                "Is it easy to navigate and use for new students?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Vendor-side functionalities are equally comprehensive, allowing restaurant owners to manage storefronts, dynamically create nested menu structures, and instantly receive payments via Stripe Connect. An intuitive vendor onboarding system simplifies the launch process, helping restaurants quickly go live and seamlessly integrate banking information. Additionally, the platform incorporates Algolia-powered search features for convenient browsing by vendor name, food type, or category.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "Integration",
+                "Vendor Features"
+            ],
+            "questions": [
+                "What tools do restaurants get with Campus Eats?",
+                "How easy is it for a vendor to get started?",
+                "Can vendors customize their menus?",
+                "How does Campus Eats help vendors get paid?",
+                "Is there a way to search for specific food or restaurants?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Under my leadership, Campus Eats grew significantly, involving contributions of over 30,000 lines of code and effective coordination of a 20-person multidisciplinary team spanning mobile and web development, business strategy, and UI/UX design. I spearheaded the startup’s participation in prestigious entrepreneurial programs such as the University of Toronto Hatchery fellowship and pitched at competitions like the Hatchery Dominant Pitch and Hult Prize. Through mentorship from industry experts like Erica Barra, I refined my entrepreneurial and leadership skills, developed detailed cash flow projections, and crafted a sustainable business model.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "Contribution and Team",
+                "Businese"
+            ],
+            "questions": [
+                "What was your role in leading Campus Eats?",
+                "How big was your team and how did you manage it?",
+                "Did you take part in any startup programs or competitions?",
+                "What business skills did you develop during this project?",
+                "What made Campus Eats a successful student-led venture?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Feedback from users has been overwhelmingly positive, highlighting Campus Eats’ intuitive interface and time-saving features, with constructive suggestions for improvements like faster processing during peak hours and expanded dietary customization options. I actively leverage such feedback, maintaining ongoing communication with users and restaurant partners to continuously refine and align the app with user needs. Campus Eats remains my favorite and most challenging project, deepening my understanding of customer needs, entrepreneurship complexities, and effective team management.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "Feedback"
+            ],
+            "questions": [
+                "What do users say about Campus Eats?",
+                "How do you gather and apply user feedback?",
+                "What improvements have users asked for?",
+                "What did you learn from building Campus Eats?",
+                "Why is this project meaningful to you?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Campus Eats’ innovative model has been validated by strong market interest: 72% of students surveyed expressed willingness to use a fairly-priced campus delivery service, and restaurant owners indicated the platform’s potential for improved profitability and market reach. With revenue streams from commissions, memberships, and in-app advertising—and carefully managed operational costs—Campus Eats projects profitability with a break-even threshold of just 30–40 daily orders per location.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "Survey"
+            ],
+            "questions": [
+                "Did students and restaurants like the Campus Eats idea?",
+                "How was the market interest measured?",
+                "What revenue streams does the app use?",
+                "How many daily orders are needed to break even?",
+                "Why was this model seen as sustainable?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Founded in May 2023 by myself, Tom, Emma, and Kevin, Campus Eats has ambitious expansion goals. Initially launching pickup hubs at the UTSG campus, the startup plans to expand across Ontario campuses by 2025, enter additional Canadian regions by 2026, and eventually target high schools, offices, and residential neighborhoods. With a sizeable serviceable obtainable market of $18.25 million at U of T alone, $44.3 million across Canadian colleges, and a North American total available market of $4.75 billion, Campus Eats aims to revolutionize campus dining continent-wide, offering better food, greater affordability, and enhanced quality of life for students everywhere.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "History",
+                "Market Size"
+            ],
+            "questions": [
+                "Who founded Campus Eats?",
+                "Where did Campus Eats first launch?",
+                "What are the future expansion plans?",
+                "What’s the size of the market you’re targeting?",
+                "What’s the long-term vision for Campus Eats?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "We paused our projects in 2025 due to several key challenges. First, our Grab-and-Go business model relied on a large initial user base—essential for restaurants to remain profitable after offering discounts and for us to cover delivery, platform, and staffing costs. Second, with growing emphasis on diversity and fairness, we aimed to onboard a wider range of restaurants, but couldn’t ensure enough demand to justify discounted pricing for all partners. Third, health-related regulations from the university limited the sale of food from external vendors on campus. Looking ahead, we plan to pivot toward a flexible coupon-based model that supports not only restaurants but also other vendors seeking to reach the student market through tiered discounts. Campus Ease will manage student verification and offer subscription-based premium tiers for partners. While we will preserve the original dining functionalities of Campus Eats, this expanded vision reflects our goal to make Campus Ease a broader platform for student-focused savings and campus engagement.",
+        "metadata": {
+            "section": "section about campus eats",
+            "tags": [
+                "current status",
+                "future plan"
+            ],
+            "questions": [
+                "Why was Campus Eats paused in 2025?",
+                "What challenges did you face with the original model?",
+                "What is the new direction for the platform?",
+                "What’s the idea behind Campus Ease?",
+                "Will the original dining features still be available?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My personal website, https://liustev6.ca, serves as a comprehensive portfolio showcasing all of my projects with video demos, interactive elements, and detailed information about my background and experiences. It includes backend-interactive projects like StevenAI, LandSink, the Food-101 image classification tool, a full journey demo page for Campus Eats, and a 3D server room built with Blender and Three.js where objects are interactive, allowing visitors to click them to learn more details. The site also features my resume, a section about my life and interests, and provides direct ways to contact me",
+        "metadata": {
+            "section": "section about portfolio website",
+            "tags": [
+                "Overview",
+                "Projects"
+            ],
+            "questions": [
+                "What can I find on your personal website?",
+                "Which projects are featured on your site?",
+                "What’s the 3D server room and how does it work?",
+                "Is there a way to learn more about you on the site?",
+                "Can people contact you directly through the website?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "The site was first built in 2022 using Tailwind CSS and Next.js with a very early 2000s look—you can view that initial version at https://my-personal-website-yuanxyyds.vercel.app/. For convenience and self-development, I shifted the project to React.js with Bootstrap in 2023, introducing a major UI update with cyber-casual styles. In 2025, I redesigned it again with cyber neon colors, giving it a slightly more professional look and adding more animations and sections. New features include the built-in 3D server room with Three.js, a two-column gallery with varying scroll speeds, and other interactive elements.",
+        "metadata": {
+            "section": "section about portfolio website",
+            "tags": [
+                "History and Tech Stack",
+                "Interations and Updates"
+            ],
+            "questions": [
+                "How has your personal website changed over time?",
+                "What technologies did you use to build it?",
+                "Why did you switch from Next.js to React?",
+                "What’s the inspiration behind the cyber-neon design?",
+                "What are some unique interactive features on the site?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "The backend is developed with Django. Initially, the site was hosted on AWS EC2, but since building my own home server, most of the backend has been shifted there for better control and scalability. Building this website has been a lifelong hobby of mine; it not only showcases my journey but also reflects my passion for software engineering, full-stack development, CI/CD workflows for continuous improvement, and UI/interactive design capabilities.",
+        "metadata": {
+            "section": "section about portfolio website",
+            "tags": [
+                "Backend",
+                "Skills"
+            ],
+            "questions": [
+                "What powers the backend of your website?",
+                "Why did you move the hosting to your home server?",
+                "Is the website a reflection of your skills and interests?",
+                "What do you enjoy most about maintaining your site?",
+                "How does your website show off your full-stack skills?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "During my co-op at Johnson Controls, I worked as a full-stack mobile app developer under the guidance of my supervisor, Praharsh Bhatt, and manager, Rajmy Sayavong. I contributed to the development of a smart home and community management app called DTC (also known as Community). The app was built using Flutter for the frontend and Firebase for the backend, with cloud functions written in TypeScript. I was also responsible for designing the user interface in Figma and implementing the UI into a fully functional and responsive mobile app.",
+        "metadata": {
+            "section": "section about coop at Johnson Controls",
+            "tags": [
+                "DTC/Community Overview",
+                "People"
+            ],
+            "questions": [
+                "What did you work on during your co-op at Johnson Controls?",
+                "Who supervised your work during the internship?",
+                "What technologies did you use to build the DTC app?",
+                "What role did you play in designing the app's UI?",
+                "Was the app focused on smart home or community features?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "The app featured several core functionalities. Users could create and manage different types of circles—private circles, community circles, and home circles—where they could invite others, assign roles, and manage shared chats, devices, and announcements. We integrated an AI-powered assistant bot that could help users navigate the app or control smart devices simply by sending a message or speaking. The bot supported both speech-to-text and text-to-speech, enabling users to have voice-based conversations with the assistant. Additionally, users could add smart devices to their circles and create automation routines between devices.",
+        "metadata": {
+            "section": "section about coop at Johnson Controls",
+            "tags": [
+                "DTC/Community Features"
+            ],
+            "questions": [
+                "What are the main features of the DTC app?",
+                "How do user circles work in the app?",
+                "Can users interact with smart devices through voice?",
+                "How does the assistant bot work in the app?",
+                "What kind of automation can users set up?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "On the integration side, I worked on connecting the app to Google Cloud Platform APIs to enable real-time geolocation tracking for people and devices within each circle. We also integrated support for smart home protocols like Google Matter and Zigbee through our implementation of the Flutter Home Assistant SDK. This allowed users to remotely control devices and automate interactions within their smart environments, all through a central cloud database",
+        "metadata": {
+            "section": "section about coop at Johnson Controls",
+            "tags": [
+                "Integration"
+            ],
+            "questions": [
+                "How did you implement geolocation tracking in the app?",
+                "What smart home protocols does the app support?",
+                "Did you work with any SDKs for smart home control?",
+                "How do users control devices in real time?",
+                "Was cloud integration a major part of your work?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "This co-op provided me with valuable hands-on experience in full-stack mobile development, real-time cloud integration, and smart home technologies. I deepened my skills in UI/UX design, mobile UI implementation, backend logic with cloud functions, API integrations, and building intelligent assistants with voice interaction. The project was both technically challenging and rewarding, giving me a well-rounded understanding of modern connected app ecosystems.",
+        "metadata": {
+            "section": "section about coop at Johnson Controls",
+            "tags": [
+                "What I Gain and Learn"
+            ],
+            "questions": [
+                "What did you learn from your co-op at Johnson Controls?",
+                "How did this project challenge you technically?",
+                "Did the co-op improve your UI/UX design skills?",
+                "What experience did you gain with voice-based assistants?",
+                "How did this experience shape your interest in smart home tech?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "LockIn, also known as aSocial, is a productivity-focused mobile and web application that I co-founded to help students reduce phone usage and improve their time management. The app is built around a simple but effective concept: when users “lock in” their phones, they earn rewards based on the duration of their screen-free time. These rewards can then be redeemed for discounts at nearby businesses, creating a tangible incentive for students to stay off their devices. LockIn not only helps students save time and improve focus, but also supports local merchants by increasing student engagement with discount-based foot traffic.",
+        "metadata": {
+            "section": "section about Lockin Asocial",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What is LockIn (aSocial) and what problem does it solve?",
+                "How does LockIn encourage students to stay off their phones?",
+                "What kind of rewards can users earn through LockIn?",
+                "Why did you choose to focus on student productivity?",
+                "How does LockIn benefit local businesses?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "The app features a reward system powered by the integration of iOS Screen Time APIs, allowing for accurate tracking of phone usage. It maintains a local-vendor reward database so students can exchange their earned time for discounts, contributing to a 30% average reduction in screen time among active users. LockIn is available as both a mobile app and a web platform. The mobile version was developed using Swift for iOS and Flutter for UI refinement, while the web version was built using Next.js. Firebase was integrated to enable real-time updates and seamless user experience across platforms.",
+        "metadata": {
+            "section": "section about Lockin Asocial",
+            "tags": [
+                "Features"
+            ],
+            "questions": [
+                "How does LockIn measure phone usage accurately?",
+                "What technologies power LockIn’s reward system?",
+                "What platforms is LockIn available on?",
+                "How does LockIn reduce screen time among students?",
+                "What role does Firebase play in the app?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "As a founding engineer, I played a central role in prototyping, developing, and launching the app on both the Apple Store and the web. I provided technical leadership across all parts of the stack, working on frontend and backend systems, reward tracking, and real-time infrastructure. My work included developing user-facing interfaces, implementing backend logic, and integrating key technologies like Firebase and iOS APIs. I also helped refine the product strategy to ensure it aligned with student needs and vendor partnerships.",
+        "metadata": {
+            "section": "section about Lockin Asocial",
+            "tags": [
+                "My role"
+            ],
+            "questions": [
+                "What was your role in building LockIn?",
+                "Did you lead both frontend and backend development?",
+                "How did you ensure the product aligned with student needs?",
+                "What technologies did you integrate into the app?",
+                "What was the biggest challenge you faced as a founding engineer?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Currently, LockIn is live on the Apple Store and has achieved over 5,000 downloads, ranking as high as #60 in the Productivity category. The project has demonstrated strong impact, with measurable improvements in user focus and time management, and continues to expand its reach among student communities and local businesses.",
+        "metadata": {
+            "section": "section about Lockin Asocial",
+            "tags": [
+                "Launch"
+            ],
+            "questions": [
+                "Is LockIn currently available to the public?",
+                "How many downloads has LockIn received so far?",
+                "What ranking did LockIn achieve on the Apple Store?",
+                "What impact has LockIn had on student productivity?",
+                "Is LockIn still expanding to new users or markets?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I have served as a Research Assistant at the University of Toronto since September 2023, contributing to cutting-edge research in both large language models (LLMs) and hardware-accelerated database systems through my work with Jinesis Lab and FarDataLab. My interdisciplinary projects focus on optimizing computational systems for real-world applications in education, infrastructure, and machine learning. Guided by Professors Zhijing Jin and Qizhen Zhang, I blend theoretical insight with system-level engineering to advance AI for social good and improve database efficiency at scale.",
+        "metadata": {
+            "section": "section about Research",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What kind of research do you do at the University of Toronto?",
+                "Who are your research supervisors?",
+                "How is Qizhen Zhang and Zhijing Jin?",
+                "How do you contribute to AI for social good?",
+                "How are LLMs and database systems connected in your work?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "At Jinesis Lab, under the supervision of Zhijing Jin, I led the development of an LLM-powered mentorship chatbot (MentorAI) designed to help students navigate research planning by synthesizing knowledge from the ACL Mentorship Channel. My work involved building multiple video-to-chatbot pipelines using advanced components such as LLM summarizers, transcript-based Retrieval-Augmented Generation (RAG), supervised fine-tuning, and prompt engineering. I conducted evaluations across leading models including Qwen-2.5 and LLaMA-3, contributing to the lab’s broader mission of applying LLMs to promote equity and accessibility in academic mentorship.",
+        "metadata": {
+            "section": "section about Research",
+            "tags": [
+                "Jinese Lab"
+            ],
+            "questions": [
+                "What is MentorAI and how does it work?",
+                "How did you apply LLMs to mentorship support?",
+                "Which models did you evaluate in this project?",
+                "What is the goal of the Jinesis Lab?",
+                "How does your chatbot support academic equity and accessibility?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "At FarDataLab, under the guidance of Qizhen Zhang, I worked on accelerated database management systems aimed at overcoming performance limitations of general-purpose processors caused by the end of Dennard scaling and Moore’s Law. I designed and deployed three 5-node PrestoDB clusters configured with various combinations of GPU and FPGA hardware. I conducted extended TPC-H benchmark queries (lasting over 12 hours) to evaluate system performance, ultimately identifying a GPU-only configuration that delivered a 20% improvement in query throughput. This work contributes to the growing field of hardware-software co-design in large-scale cloud data systems.",
+        "metadata": {
+            "section": "section about Research",
+            "tags": [
+                "FDL Accelerated DBMS"
+            ],
+            "questions": [
+                "What kind of research did you do at FarDataLab?",
+                "How did you use GPU and FPGA for database acceleration?",
+                "What was the goal of your PrestoDB cluster experiments?",
+                "What performance improvements did you observe?",
+                "How does this research contribute to cloud data systems?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My future research vision is driven by two major goals. First, I aim to deepen my understanding of low-level optimization for LLM training, inspired by hands-on experience configuring Unsloth for resource-efficient fine-tuning. I have successfully used LoRA adapters to merge models up to 11 billion parameters on a 16GB VRAM GPU, making advanced LLM research feasible in home lab environments. Questions such as why tools like Unsloth lack multi-GPU support motivate me to pursue deeper research in system efficiency, ideally at MIT using its world-class infrastructure. My goal is to publish impactful work that makes LLM training accessible to independent developers. Second, I am passionate about applied AI in industry, focusing on lightweight, verticalized models that achieve high accuracy for specialized tasks and are deployable locally, pushing forward the boundary of practical, secure, and scalable AI.",
+        "metadata": {
+            "section": "section about Research",
+            "tags": [
+                "Future Research Interest"
+            ],
+            "questions": [
+                "What are your long-term research goals?",
+                "How did your experience with Unsloth shape your interest?",
+                "Why is system efficiency in LLMs important to you?",
+                "What motivates you to focus on lightweight and verticalized models?",
+                "How do you plan to contribute to practical and scalable AI?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "The Food-101 Image Classification Project is a deep learning–based system designed to automatically identify and categorize food images into 22 distinct classes, such as sushi, ramen, pizza, and dumplings. It leverages the widely-used Food-101 dataset, which contains thousands of labeled food images, as a foundation for training and evaluating models. The goal of the project is to build an accurate and efficient image classification pipeline capable of handling real-world food photos with varied lighting, angles, and compositions.",
+        "metadata": {
+            "section": "section about Food-101",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What is the Food-101 Image Classification Project?",
+                "How many food categories does your model recognize?",
+                "Why did you choose the Food-101 dataset for this project?",
+                "What real-world challenges does the model handle?",
+                "What was the main goal of building this classification system?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "At its core, the project involves fine-tuning convolutional neural networks (CNNs) such as ResNet, Inception, and VGG. These pre-trained models are adapted using techniques like transfer learning, data augmentation, and hyperparameter tuning to improve performance and robustness. Beyond just model training, the project explores practical challenges in computer vision—like handling class imbalance, avoiding overfitting, and ensuring generalization through careful validation.",
+        "metadata": {
+            "section": "section about Food-101",
+            "tags": [
+                "Tech Models"
+            ],
+            "questions": [
+                "Which deep learning models did you use in the Food-101 project?",
+                "What techniques did you apply to improve model performance?",
+                "How did you deal with overfitting in this project?",
+                "What role does data augmentation play in your pipeline?",
+                "Why did you fine-tune models like ResNet or Inception instead of training from scratch?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "From a user perspective, the project offers an interactive demo hosted at https://www.liustev6.ca/foodImageClassify, where users can upload a food image and receive a predicted category. This not only showcases the model's capabilities but also makes the system accessible and engaging for non-technical users. Overall, the Food-101 Image Classification Project demonstrates how machine learning can be applied to everyday tasks—like recognizing meals from images—while serving as a platform for experimenting with modern deep learning techniques. For me personally, this project marked my first experience building an advanced machine learning system. It introduced me to frequently-used deep learning architectures and helped me become familiar with state-of-the-art neural network techniques, forming a strong foundation for my future work in AI.",
+        "metadata": {
+            "section": "section about Food-101",
+            "tags": [
+                "Impact"
+            ],
+            "questions": [
+                "Where can people try out your Food-101 demo?",
+                "What does the interactive demo do?",
+                "How did this project help you grow in machine learning?",
+                "What was your biggest takeaway from building this system?",
+                "How does this project show the real-world value of deep learning?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "StevenAI is a personalized AI chatbot built to answer questions specifically about my life, projects, skills, and background. It was initially created by fine-tuning a large language model (LLaMA 3.2) and later enhanced with a custom Retrieval-Augmented Generation (RAG) layer to overcome the limitations of fine-tuning alone. StevenAI represents a hybrid system that merges parameter-efficient fine-tuning with semantic search–based retrieval to provide more accurate, flexible, and personalized responses. It can run on either the original fine-tuned LLaMA model or external models like ChatGPT-4, allowing users to compare and explore different answer qualities based on model architecture and context dependency.",
+        "metadata": {
+            "section": "section about Steven AI",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What is StevenAI and what does it do?",
+                "Why did you create a personalized AI chatbot?",
+                "What models power StevenAI?",
+                "How does StevenAI combine fine-tuning and retrieval?",
+                "Can users choose between different model backends when using StevenAI?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "StevenAI is a personalized AI chatbot that I created by fine-tuning the LLaMA 3.2 model, which contains over 3 billion parameters. To build it, I developed a 1,000 Q&A custom dataset about myself, including my projects, experiences, academic background, and personal interests. This dataset was used to train a LoRA (Low-Rank Adaptation) adapter on my personal server, which was then merged with the base LLaMA 3.2 model to form the final chatbot.",
+        "metadata": {
+            "section": "section about Steven AI",
+            "tags": [
+                "Original Version",
+                "Base Model"
+            ],
+            "questions": [
+                "How did you build the original version of StevenAI?",
+                "What kind of data did you use to fine-tune LLaMA 3.2?",
+                "How big was your fine-tuned dataset for StevenAI?",
+                "What’s a LoRA adapter and how did you use it?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "While the original chatbot captured a wide range of personal details, I encountered multiple issues. Large models (like 8B) frequently surfaced unrelated pretraining noise, overshadowing fine-tuned responses. Conversely, smaller models (like 3B) lacked capacity, resulting in frequent errors such as mixing up friends’ names. Moreover, to emphasize key facts, the dataset included duplicated questions, which led to repetitive, overemphasized answers and reduced memory allocation for lower-priority facts.",
+        "metadata": {
+            "section": "section about Steven AI",
+            "tags": [
+                "Problems with Fine-Tuning"
+            ],
+            "questions": [
+                "What issues did you face when fine-tuning large models?",
+                "Why didn’t the 3B and 8B models work well for StevenAI?",
+                "How did repeated questions affect the model’s output?",
+                "What kinds of mistakes did StevenAI make without RAG?",
+                "Why wasn’t fine-tuning alone enough for your chatbot?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "To address these challenges, I added a Retrieval-Augmented Generation (RAG) layer. This upgrade uses bge-large-en-v1.5 to embed content and stores it in a FAISS index. The knowledge base was completely restructured: instead of using duplicated Q&A pairs, I rewrote the data into concise fact chunks, each appearing only once. When a user sends a question, the system performs two types of retrieval: (1) a top-3 direct fact match, and (2) a top-3 question match, based on five auto-generated sample questions per fact chunk. Only question embeddings are stored in the RAG index, with the corresponding answers saved in the metadata. The final prompt includes these six retrieved contexts before being passed to the chatbot.",
+        "metadata": {
+            "section": "section about Steven AI",
+            "tags": [
+                "RAG Enhancement",
+                "Current Improvement"
+            ],
+            "questions": [
+                "How does the RAG layer improve StevenAI?",
+                "What is stored in the FAISS index?",
+                "Why did you restructure the knowledge base into fact chunks?",
+                "How are questions matched during retrieval?",
+                "What model did you use for text embedding?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "StevenAI’s RAG-enhanced prompt can be passed to either the original fine-tuned LLaMA 3.2 model or a general-purpose model like ChatGPT-4. Each option has its trade-offs: the fine-tuned LLaMA model has strong internal knowledge about me but is limited in dynamic fact retrieval, while ChatGPT-4 depends entirely on the retrieved RAG context and performs better when interpreting semantically complex or rare questions. Users can try both models side-by-side at https://www.liustev6.ca to explore the strengths of each setup.",
+        "metadata": {
+            "section": "section about Steven AI",
+            "tags": [
+                "Multi-Model Serving",
+                "Trade-Offs"
+            ],
+            "questions": [
+                "What are the pros and cons of using LLaMA vs. ChatGPT-4 for StevenAI?",
+                "How does StevenAI decide which model to use?",
+                "Can users try both models in your demo?",
+                "When is ChatGPT-4 better than the fine-tuned model?",
+                "How does your system combine RAG with model prompting?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "LandSink is a predictive analytics project I developed during my CSC110 course, aimed at estimating future global temperatures and the percentage of land that may be submerged due to rising sea levels. The model is built using linear regression and trained on global datasets of sea level, temperature, and elevation. Originally implemented using Pygame, the early version generated HTML output for each prediction. Later, I upgraded the project by building a Django back-end hosted on AWS, allowing users to make predictions via API requests. Users can interact with the live prediction tool at [https://www.liustev6.ca/landSink](https://www.liustev6.ca/landSink). My responsibilities included collecting and cleaning data, building the regression model, and modernizing the tech stack for scalable, web-based access. The project tackles real-world environmental forecasting while serving as a hands-on application of regression modeling, data integration, and full-stack deployment.",
+        "metadata": {
+            "section": "section about Land Sink",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What is the LandSink project and what does it predict?",
+                "Why did you build LandSink and how did it evolve from CSC110?",
+                "How does your prediction model estimate land submersion?",
+                "Can people try the LandSink tool online?",
+                "What technologies did you use to build and deploy LandSink?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My data science showcasing website, built using Rmarkdown, serves as a central hub for a diverse range of projects that highlight my skills in data analysis, machine learning, and visualization using tools like R and Python. Among the featured projects is an NBA2K player rating prediction model, which uses linear regression based on players’ regular-season statistics to estimate their ratings in future NBA2K game editions. Another project applies natural language processing (NLP) to analyze Clash Royale players’ sentiment toward game updates, extracting emotional trends from player responses.",
+        "metadata": {
+            "section": "section about Data Science",
+            "tags": [
+                "Showcasing Website"
+            ],
+            "questions": [
+                "What is your data science showcasing website about?",
+                "What types of projects are featured on your site?",
+                "How did you predict NBA2K player ratings?",
+                "What did your Clash Royale sentiment analysis reveal?",
+                "What tools did you use to build and present these projects?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I have also visualized theft patterns in Toronto, highlighting temporal and geographic trends using data visualization techniques. In another project, I explored the relationship between life expectancy and alcohol consumption, uncovering public health correlations through statistical analysis. Additionally, my Great Lakes Pollution analysis focuses on phosphorus contamination, using time series plots and interactive maps to visualize water quality data sourced from The Canadian Open Data Portal. Altogether, the website demonstrates my ability to apply machine learning models, perform insightful analyses, and communicate findings effectively through compelling visualizations.",
+        "metadata": {
+            "section": "section about Data Science",
+            "tags": [
+                "Data Analysis Report"
+            ],
+            "questions": [
+                "What kind of data analysis projects have you done?",
+                "How did you analyze Toronto theft trends?",
+                "What did you find about life expectancy and alcohol use?",
+                "Can you explain your Great Lakes pollution project?",
+                "How do you visualize your findings to make them understandable?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "I built a powerful 2-node personal server from scratch to support a wide range of projects—from web hosting and cloud storage to machine learning and remote gaming. Designed for flexibility and performance, one node runs 24/7 for lightweight tasks, while the other handles GPU-intensive workloads like fine-tuning models and LLM hosting. Both nodes run Proxmox and use containers and VMs for efficient workload management. This setup powers my apps like StevCloud and StevenAI and serves as a hands-on platform for learning system architecture, DevOps, and cloud infrastructure.",
+        "metadata": {
+            "section": "section about server",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What kind of server setup do you use for your projects?",
+                "Why did you choose a two-node architecture?",
+                "How do you manage different types of workloads across your server?",
+                "What kinds of projects run on your server?",
+                "What role does your server play in your learning and development?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "The first node is a lightweight, always-on host that ensures continuous availability for development tasks, real-time web services, and light machine learning jobs. It features an AMD Ryzen 7 5800X CPU, NVIDIA GeForce RTX 4060 Ti GPU, 32GB Corsair Vengeance RGB Pro DDR4 RAM at 3600MHz, and storage with a 1TB Samsung 990 EVO SSD paired with a 4TB Seagate IronWolf Pro HDD. The system is built on an ASUS TUF Gaming B550-PLUS Wi-Fi II motherboard, cooled with a Thermalright Peerless Assassin 120 SEARGB cooler, and housed in a Corsair iCUE 4000D RGB Airflow case with additional RGB fans for thermal performance and aesthetics. It’s powered by a Corsair RM750e PSU, recently upgraded to a Thermaltake GF3 1200W PSU for overhead and future expansions.",
+        "metadata": {
+            "section": "section about server",
+            "tags": [
+                "Hardware Node 1"
+            ],
+            "questions": [
+                "What are the specs of your always-on server node?",
+                "Why did you choose the Ryzen 7 5800X and RTX 4060 Ti for Node 1?",
+                "How do you keep your server cool and power-efficient?",
+                "What types of tasks run on your first server node?",
+                "Did you face any challenges when building this node?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "The second node is a high-performance, power-intensive machine used selectively for heavier tasks like fine-tuning large language models, hosting LLM inference servers (e.g., StevenAI base model), and remote gaming via GPU passthrough. This dual-boot system switches between Proxmox and Windows depending on the task and remains off when not in use to conserve power. It features an AMD Ryzen 9 9950X CPU, NVIDIA GeForce RTX 5090 with 32GB VRAM, 96GB Asgard x TUF Strix DDR5 RAM, a Samsung 990 Pro 4TB SSD, and a Kingston NV3 1TB SSD. The core is mounted on a ProArt X870E-Creator motherboard, making it ideal for content creation, deep learning training, and AI hosting.",
+        "metadata": {
+            "section": "section about server",
+            "tags": [
+                "Hardware Node 2"
+            ],
+            "questions": [
+                "What do you use your second high-performance node for?",
+                "Why does your second node dual boot between Proxmox and Windows?",
+                "What are the specs and components of your high-performance machine?",
+                "How do you handle GPU-intensive workloads on this setup?",
+                "When do you turn on your second node?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "Both systems run Proxmox as the primary OS for virtualization and container management. I use containers and VMs to deploy applications like the backend for my personal website, StevCloud (a self-hosted personal file storage service), and a Windows VM for remote gaming, enabling me to stream high-performance games to any device. Networking is configured via Cloudflare to securely manage web traffic and remote access.",
+        "metadata": {
+            "section": "section about server",
+            "tags": [
+                "Application and Operating System OS"
+            ],
+            "questions": [
+                "What operating system do you use for virtualization?",
+                "How do you manage different apps on your server?",
+                "What is StevCloud and how does it run on your server?",
+                "How do you handle remote gaming with your setup?",
+                "How do you manage web traffic and remote access securely?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "My home lab server reflects my deep interest in server architecture, DevOps, cloud infrastructure, and AI development. Managing my own infrastructure gives me full control over system resources, lets me experiment with virtual environments, and hones my skills in system administration and distributed deployment. The setup’s flexibility, raw power, and educational value make it a central part of my development and research workflow.",
+        "metadata": {
+            "section": "section about server",
+            "tags": [
+                "Impact"
+            ],
+            "questions": [
+                "Why did you decide to build your own home lab server?",
+                "How has running your own server helped you grow technically?",
+                "What have you learned from managing your infrastructure?",
+                "What benefits do you get from full control over your server?",
+                "How does your home lab support your research and personal projects?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "StevCloud is my self-hosted personal cloud server, built using NextCloud, an open-source cloud software platform. It is hosted on my own home server, giving me full control over my cloud infrastructure and data privacy. The system is backed by a 4TB Seagate IronWolf Pro HDD, providing ample and reliable storage capacity for my photos, learning materials, important documents, and media files. Accessible at https://cloud.liustev6.ca, StevCloud allows me to seamlessly access and manage my data from anywhere while also enabling secure file sharing. Because it’s fully self-hosted, I avoid reliance on third-party cloud providers and retain full autonomy over system configuration, security, and performance.",
+        "metadata": {
+            "section": "section about StevCloud",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What is StevCloud and what do you use it for?",
+                "Why did you decide to build your own cloud server?",
+                "How does StevCloud ensure data privacy and control?",
+                "What kind of files do you store on StevCloud?",
+                "Can others access or share files using StevCloud?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "AISIM (AI Simulation Game) is an 7-player AI-powered social deduction game designed for research on large language model (LLM) behavior. The game simulates complex multi-agent interactions where each AI character engages in dialogue, tracks memory, and reasons toward hidden goals. AISIM connects to a 2D pixel-style Godot frontend, which renders real-time character portraits, dynamic conversations, and group chat scenes, creating an immersive and visually engaging environment. The backend is built using FastAPI and SQLite, enabling modular simulation of game rounds, conversation flows, and persistent player state management. AISIM integrates multiple LLMs—using LLaMA for real-time character dialogues and Deepseek for memory updates and strategic reasoning. Role-specific system prompts and contextual memory logs are employed to generate unique, goal-oriented behavior for each AI player. This setup allows researchers to explore how different LLMs interact, adapt strategies, and simulate social behavior in a controlled, game-like setting.",
+        "metadata": {
+            "section": "section about AISim",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What is AISIM and how does it work?",
+                "Why did you build a simulation game with LLMs?",
+                "How do different AI agents interact in AISIM?",
+                "What kind of research can AISIM support?",
+                "What tools and frameworks did you use to build AISIM?"
+            ],
+            "source": "Docs"
+        }
+    },
+    {
+        "content": "DIY AI Assistant is a personal, self-built voice assistant system deployed on a Raspberry Pi 5, designed for everyday use in my home. It serves as both a smart home control hub and an LLM-powered conversational assistant that I can talk to naturally. I use it to control lights, open doors with sensor triggers, and interact with my smart environment simply by speaking—like saying “turn on the light” or “open the door.” The assistant features a custom text-to-speech engine for natural voice responses and connects to all my smart devices via the Home Assistant API. I also built a real-time GUI using Kivy, which provides live voice feedback, touch control, and a smooth interface for managing devices. Beyond automation, it’s my playground for hardware exploration and AI experimentation, offering me a compact, open-source alternative to commercial systems—fully tailored to my needs, fully under my control.",
+        "metadata": {
+            "section": "section about DIY Voice Assistant",
+            "tags": [
+                "Overview"
+            ],
+            "questions": [
+                "What does your DIY AI Assistant do?",
+                "Why did you choose to build your own voice assistant?",
+                "How do you use your assistant to control your home?",
+                "What hardware and software power your voice assistant?",
+                "How is your assistant different from commercial systems like Alexa?"
             ],
             "source": "Docs"
         }
