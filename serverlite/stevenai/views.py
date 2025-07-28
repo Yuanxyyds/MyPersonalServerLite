@@ -6,6 +6,34 @@ from openai import OpenAI
 
 client = OpenAI(api_key=settings.OPENAI_API_KEY)
 
+def rewrite_follow_up(query, last_q, last_a):
+    if not last_q or not last_a:
+        return query  # Nothing to rewrite
+
+    prompt = (
+        f"You are Steven (Hongyuan Liu). Someone asked a follow-up question.\n\n"
+        f"Previous Q: \"{last_q}\"\n"
+        f"Previous A: \"{last_a}\"\n"
+        f"Follow-up Q: \"{query}\"\n\n"
+        f"If the follow-up is related, rewrite it as a standalone question (max 20 words, no extra text). "
+        f"If unrelated, just return the follow-up question as-is."
+    )
+
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "You're a helpful assistant."},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.3,
+            max_tokens=64,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"Follow-up rewrite error: {e}")
+        return query
+
 
 def generate_openai_response(query, include_qa=False, include_docs=False):
     if not query:
@@ -61,14 +89,23 @@ def generate_openai_response(query, include_qa=False, include_docs=False):
 
 def openai_qa_only(request):
     query = request.GET.get("q", "")
+    last_q = request.GET.get("last_q", "")
+    last_a = request.GET.get("last_a", "")
+    query = rewrite_follow_up(query, last_q, last_a)
     return generate_openai_response(query, include_qa=True, include_docs=False)
 
 
 def openai_docs_only(request):
     query = request.GET.get("q", "")
+    last_q = request.GET.get("last_q", "")
+    last_a = request.GET.get("last_a", "")
+    query = rewrite_follow_up(query, last_q, last_a)
     return generate_openai_response(query, include_qa=False, include_docs=True)
 
 
 def openai_qa_docs(request):
     query = request.GET.get("q", "")
+    last_q = request.GET.get("last_q", "")
+    last_a = request.GET.get("last_a", "")
+    query = rewrite_follow_up(query, last_q, last_a)
     return generate_openai_response(query, include_qa=True, include_docs=True)
