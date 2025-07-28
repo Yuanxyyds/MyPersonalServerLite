@@ -19,5 +19,12 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("openai-rag/query", views.rag_query_view, name="openai"),
+    path("gpt4o-qa-docs/query", views.openai_qa_docs, name="openai"),
+    path("gpt4o-qa/query", views.openai_qa_only, name="openai"),
+    path("gpt4o-docs/query", views.openai_docs_only, name="openai"),
+    path("gpt4o/query", views.openai_qa_docs, name="openai"),
+    path("llama-qa-docs/query", views.openai_qa_docs, name="openai"),
+    path("llama-qa/query", views.openai_qa_docs, name="openai"),
+    path("llama-docs/query", views.openai_qa_docs, name="openai"),
+    path("llama/query", views.openai_qa_docs, name="openai"),
 ]

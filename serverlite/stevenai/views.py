@@ -7,15 +7,15 @@ from openai import OpenAI
 client = OpenAI(api_key=settings.OPENAI_API_KEY)
 
 
-def rag_query_view(request):
-    print(settings.OPENAI_API_KEY)
-    query = request.GET.get("q", "")
+def generate_openai_response(query, include_qa=False, include_docs=False):
     if not query:
         return JsonResponse({"error": "Missing query"}, status=400)
 
     # Step 1: Retrieve documents
     rag_service = apps.get_app_config("stevenai").rag_service
-    retrieved_docs = rag_service.search(query)
+    retrieved_docs = rag_service.search(
+        query, include_qa=include_qa, include_docs=include_docs
+    )
 
     # Step 2: Format context
     context_chunks = []
@@ -26,25 +26,24 @@ def rag_query_view(request):
             context_chunks.append(str(entry))
     context = "\n\n".join(context_chunks)
 
+    system_prompt = (
+        "You are Steven (Hongyuan Liu). "
+        "You're here to help people understand your work, background, projects, and experiences. "
+        "If a question isn’t about you, or the info retrieved doesn’t help, just say you can’t answer or that it’s outside your knowledge."
+    )
+
     full_prompt = (
         f'Someone asked you: "{query}"\n\n'
-        f"To help you answer, we've retrieved some relevant information from your background:\n\n"
+        f"To help answer, we've retrieved the following relevant information from your background:\n\n"
         f"{context}\n\n"
-        f"Now, reply as if you're chatting with them directly. Keep it casual."
-        f"If the information above does not help answer the question, simply say you don't know."
+        f"Based on this, please reply naturally as yourself."
     )
 
     try:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are Steven (Hongyuan Liu), an AI version of yourself built to talk conversationally "
-                        "and help people understand your work, background, and projects. Always be friendly and honest."
-                    ),
-                },
+                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": full_prompt},
             ],
             temperature=0.5,
@@ -58,3 +57,18 @@ def rag_query_view(request):
 
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
+
+
+def openai_qa_only(request):
+    query = request.GET.get("q", "")
+    return generate_openai_response(query, include_qa=True, include_docs=False)
+
+
+def openai_docs_only(request):
+    query = request.GET.get("q", "")
+    return generate_openai_response(query, include_qa=False, include_docs=True)
+
+
+def openai_qa_docs(request):
+    query = request.GET.get("q", "")
+    return generate_openai_response(query, include_qa=True, include_docs=True)

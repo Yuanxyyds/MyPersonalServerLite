@@ -48,37 +48,41 @@ class RAGSearchService:
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
 
-    def search(self, query, top_k=3):
+    def search(self, query, top_k=3, include_qa=True, include_docs=True):
         print(f"\n🔍 Query: {query}")
         query_embed = self.model.encode([query], convert_to_numpy=True)
-
-        D_qa, I_qa = self.qa_index.search(query_embed, k=top_k)
-        D_docs, I_docs = self.docs_index.search(query_embed, k=top_k)
-
         seen_ids = set()
         results = {"qa": [], "docs": []}
 
-        for idx in I_qa[0]:
-            meta = self.qa_metadatas[idx]
-            qa_id = meta.get("id")
-            if qa_id in seen_ids:
-                continue
-            seen_ids.add(qa_id)
-            results["qa"].append({
-                "question": self.qa_documents[idx],
-                "answer": meta.get("answer", "[No answer]"),
-                "source": meta.get("section", "N/A")
-            })
+        if include_qa:
+            D_qa, I_qa = self.qa_index.search(query_embed, k=top_k)
+            for idx in I_qa[0]:
+                meta = self.qa_metadatas[idx]
+                qa_id = meta.get("id")
+                if qa_id in seen_ids:
+                    continue
+                seen_ids.add(qa_id)
+                results["qa"].append(
+                    {
+                        "question": self.qa_documents[idx],
+                        "answer": meta.get("answer", "[No answer]"),
+                        "source": meta.get("section", "N/A"),
+                    }
+                )
 
-        for idx in I_docs[0]:
-            meta = self.docs_metadatas[idx]
-            doc_id = meta.get("id")
-            if doc_id in seen_ids:
-                continue
-            seen_ids.add(doc_id)
-            results["docs"].append({
-                "doc": self.docs_documents[idx],
-                "source": meta.get("section", "N/A")
-            })
+        if include_docs:
+            D_docs, I_docs = self.docs_index.search(query_embed, k=top_k)
+            for idx in I_docs[0]:
+                meta = self.docs_metadatas[idx]
+                doc_id = meta.get("id")
+                if doc_id in seen_ids:
+                    continue
+                seen_ids.add(doc_id)
+                results["docs"].append(
+                    {
+                        "doc": self.docs_documents[idx],
+                        "source": meta.get("section", "N/A"),
+                    }
+                )
 
         return results
